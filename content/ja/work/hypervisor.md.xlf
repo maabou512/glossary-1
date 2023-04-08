@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/hypervisor.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A hypervisor enables <x id="1"/>virtualization<x id="2"/>
+by taking the advantage of <x id="3"/>bare metal machine<x id="4"/> resources
+(CPU, Memory, Network, and Storage), dividing them into sub-parts,
+and allocating resources accordingly to create  <x id="5"/>virtual machines (VM)<x id="6"/>
+until the underlying host reaches its performance limits.</source>
+<target xml:lang="ja" state="translated">ハイパーバイザーは<x id="1"/>仮想化<x id="2"/>を可能にします
+<x id="3"/>ベアメタル マシン<x id="4"/>のリソースを活用する
+(CPU、メモリ、ネットワーク、およびストレージ)、それらをサブパートに分割し、
+それに応じてリソースを割り当て、<x id="5"/>仮想マシン (VM)<x id="6"/> を作成します。
+基盤となるホストがパフォーマンスの限界に達するまで。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Traditionally, a server could only run applications of a single operating system.
+The process of acquiring software takes time. It requires infrastructure with a specific environment
+and a team of engineers to manage and monitor them.
+Servers were underutilized, considering the computing power of a server it can run multiple operating systems and more applications.
+Running applications on bare metal wasn't enough to match the needs of fluctuating traffic.</source>
+<target xml:lang="ja" state="translated">従来、サーバーは単一のオペレーティング システムのアプリケーションしか実行できませんでした。
+ソフトウェアの取得プロセスには時間がかかります。特定の環境を備えたインフラストラクチャが必要です
+そして、それらを管理および監視するエンジニアのチーム。
+複数のオペレーティング システムとより多くのアプリケーションを実行できるサーバーのコンピューティング能力を考慮すると、サーバーは十分に活用されていませんでした。
+ベア メタルでアプリケーションを実行するだけでは、変動するトラフィックのニーズに対応するには不十分でした。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">In the context of <x id="1"/>cloud computing<x id="2"/>, the hypervisor becomes an effective tool.
+In contrast to the traditional method of creating a virtual machine, a hypervisor makes the process much simpler and faster.
+Hardware resources are logically partitioned and assigned to the VMs keeping them isolated as distinct units,
+ensuring they function independently so that issues on one don't affect the others,
+and allowing VMs to install any necessary operating system.
+A hypervisor is an abstraction over the physical hardware, it takes care of those low-level complexities of managing the VMs and monitoring them,
+making VMs loosely bound to hardware, enabling organizations to migrate their applications to the remote servers/cloud
+and autoscale their services.
+Over time, the use of this <x id="3"/>multi-tenant<x id="4"/> software has reduced computing costs.</source>
+<target xml:lang="ja" state="translated"><x id="1"/>クラウド コンピューティング<x id="2"/>のコンテキストでは、ハイパーバイザーは効果的なツールになります。
+仮想マシンを作成する従来の方法とは対照的に、ハイパーバイザーを使用すると、プロセスがはるかに簡単かつ高速になります。
+ハードウェア リソースは論理的に分割され、VM に割り当てられ、VM を個別のユニットとして分離します。
+1 つの問題が他の問題に影響を与えないように、それらが独立して機能することを保証します。
+VM が必要なオペレーティング システムをインストールできるようにします。
+ハイパーバイザーは物理ハードウェアの抽象化であり、VM の管理と監視の低レベルの複雑さを処理します。
+VM をハードウェアに緩やかにバインドし、組織がアプリケーションをリモート サーバー/クラウドに移行できるようにする
+サービスを自動スケーリングします。
+この<x id="3"/>マルチテナント<x id="4"/>ソフトウェアの使用により、時間の経過とともにコンピューティング コストが削減されました。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

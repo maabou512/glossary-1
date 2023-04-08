@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/site-reliability-engineering.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Site Reliability Engineering or SRE is a discipline that combines operations and software engineering.
+The latter is applied to infrastructure and operations problems, specifically.
+Meaning, instead of building product features, Site Reliability Engineers build systems to run applications.
+There are similarities with <x id="1"/>DevOps<x id="2"/>, but while DevOps focuses on getting code to production,
+SRE ensures that code running in production works properly.</source>
+<target xml:lang="ja" state="translated">Site Reliability Engineering (SRE) は、運用とソフトウェア エンジニアリングを組み合わせた分野です。
+後者は、特にインフラストラクチャと運用の問題に適用されます。
+つまり、製品機能を構築する代わりに、サイト信頼性エンジニアはアプリケーションを実行するシステムを構築します。
+<x id="1"/>DevOps<x id="2"/> と類似点がありますが、DevOps はコードを本番環境に移行することに重点を置いていますが、
+SRE は、本番環境で実行されているコードが適切に機能することを保証します。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Ensuring applications run <x id="1"/>reliably<x id="2"/> requires multiple capabilities,
+from performance monitoring, alerting, <x id="3"/>debugging<x id="4"/> to troubleshooting.
+Without these, system operators can only react to problems vs. proactively working towards avoiding them
+— downtime only becomes a matter of time.</source>
+<target xml:lang="ja" state="translated">アプリケーションを<x id="1"/>確実に<x id="2"/>実行するには、複数の機能が必要です。
+パフォーマンスの監視、アラート、<x id="3"/>デバッグ<x id="4"/>からトラブルシューティングまで。
+これらがなければ、システム オペレータは問題に対応することしかできず、問題を回避するために積極的に取り組むこともできません。
+— ダウンタイムは時間の問題になります。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">An SRE approach minimizes the cost, time, and effort of the software development process
+by continuously improving the underlying system.
+The system continuously measures and monitors the infrastructure and application components.
+When something goes wrong, the system points Site Reliability Engineers to when, where, and how to fix it.
+This approach helps create highly <x id="1"/>scalable<x id="2"/> and reliable software systems by automating operational tasks.</source>
+<target xml:lang="ja" state="translated">SRE アプローチは、ソフトウェア開発プロセスのコスト、時間、および労力を最小限に抑えます。
+基礎となるシステムを継続的に改善することによって。
+システムは、インフラストラクチャとアプリケーション コンポーネントを継続的に測定および監視します。
+何か問題が発生すると、システムはサイト信頼性エンジニアに、いつ、どこで、どのように修正するかを指示します。
+このアプローチは、運用タスクを自動化することで、高度に<x id="1"/>スケーラブル<x id="2"/>で信頼性の高いソフトウェア システムを作成するのに役立ちます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

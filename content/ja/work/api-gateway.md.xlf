@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/api-gateway.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">An <x id="1"/>API<x id="2"/> gateway is a tool that
+aggregates unique application APIs, making them all available in one place.
+It allows organizations to move key functions,
+such as authentication and authorization or limiting the number of requests between applications,
+to a centrally managed location.
+An API gateway functions as a common interface to (often external) API consumers.</source>
+<target xml:lang="ja" state="translated"><x id="1"/>API<x id="2"/> ゲートウェイは、
+独自のアプリケーション API を集約し、それらすべてを 1 か所で利用できるようにします。
+これにより、組織は主要な機能を移動できます。
+認証と承認、またはアプリケーション間のリクエスト数の制限など、
+一元管理された場所へ。
+API ゲートウェイは、(多くの場合、外部の) API コンシューマへの共通インターフェイスとして機能します。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">If you’re making APIs available to external consumers,
+you'll want one entry point to manage and control all access.
+Additionally, if you need to apply functionality on those interactions,
+an API gateway allows you to uniformly apply it to all traffic without requiring any app code changes.</source>
+<target xml:lang="ja" state="translated">外部の消費者が API を利用できるようにする場合は、
+1 つのエントリ ポイントですべてのアクセスを管理および制御する必要があります。
+さらに、これらのインタラクションに機能を適用する必要がある場合は、
+API ゲートウェイを使用すると、アプリ コードを変更することなく、すべてのトラフィックに均一に適用できます。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Providing one single access point for various APIs in an application,
+API gateways make it easier for organizations to apply cross-cutting business or security logic in a central location.
+They also allow application consumers to go to a single address for all their needs.
+An API gateway can simplify operational concerns like security and <x id="1"/>observability<x id="2"/>
+by providing a single access point for requests to all web services in a system.
+As all requests flow through the API gateway, it presents a single place to
+add functionality like metrics-gathering, rate-limiting, and authorization.</source>
+<target xml:lang="ja" state="translated">アプリケーション内のさまざまな API に 1 つのアクセス ポイントを提供し、
+API ゲートウェイを使用すると、組織は横断的なビジネスまたはセキュリティ ロジックを中央の場所で簡単に適用できます。
+また、アプリケーションの利用者がすべてのニーズに対して単一のアドレスにアクセスできるようにします。
+API ゲートウェイは、セキュリティや<x id="1"/>オブザーバビリティ<x id="2"/>などの運用上の問題を簡素化できます
+システム内のすべての Web サービスへの要求に単一のアクセス ポイントを提供します。
+すべてのリクエストが API ゲートウェイを通過するため、単一の場所を提供します。
+メトリック収集、レート制限、承認などの機能を追加します。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

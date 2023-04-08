@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/policy-as-code.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Policy as Code is the practice of storing the definition of policies as one or more files in machine-readable and processable form.
+This replaces the traditional model where policies are documented in human-readable form in separate documents.</source>
+<target xml:lang="ja" state="translated">コードとしてのポリシーは、ポリシーの定義を 1 つまたは複数のファイルとして、機械で読み取り可能で処理可能な形式で保存する方法です。
+これは、ポリシーが人間が読める形式で個別のドキュメントに文書化されている従来のモデルに取って代わります。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Building applications and infrastructures are often constrained by many policies that an organization defines,
+e.g. security policies that forbid storing secrets in source code, running a container with superuser permissions,
+or storing some data outside a specific geo region.
+It is very labor-intensive and error-prone for developers and reviewers to manually check applications and infrastructure against documented policies.
+Manual processes cannot meet the responsiveness and scale requirements of cloud native applications.</source>
+<target xml:lang="ja" state="translated">アプリケーションとインフラストラクチャの構築は、多くの場合、組織が定義する多くのポリシーによって制約されます。
+例えばソース コードに秘密を保存することを禁止するセキュリティ ポリシー、スーパーユーザー権限でコンテナーを実行すること、
+または、特定の地域外にデータを保存します。
+開発者やレビュー担当者がアプリケーションやインフラストラクチャを文書化されたポリシーに照らして手動でチェックすることは、非常に手間がかかり、エラーが発生しやすくなります。
+手動プロセスでは、クラウド ネイティブ アプリケーションの応答性とスケーリングの要件を満たすことができません。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Describing policies through code enables repeatability and reduces errors (unlike when done manually).
+Another advantage of Policy as Code is that code can be managed by a version control system like Git.
+Git creates a change log history which is particularly helpful when something does not work as expected.
+It allows the user to determine who made the change and revert back to a previous version.</source>
+<target xml:lang="ja" state="translated">コードを使用してポリシーを記述すると、再現性が向上し、エラーが減少します (手動で行う場合とは異なります)。
+Policy as Code のもう 1 つの利点は、コードを Git のようなバージョン管理システムで管理できることです。
+Git は変更ログ履歴を作成します。これは、何かが期待どおりに機能しない場合に特に役立ちます。
+これにより、ユーザーは誰が変更を行ったかを特定し、以前のバージョンに戻すことができます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

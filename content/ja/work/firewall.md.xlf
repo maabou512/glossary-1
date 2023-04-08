@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/firewall.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A firewall is a system that filters network traffic on the basis of specified rules.
+Firewalls can be hardware, software, or a combination of the two.</source>
+<target xml:lang="ja" state="translated">ファイアウォールは、指定されたルールに基づいてネットワーク トラフィックをフィルタリングするシステムです。
+ファイアウォールは、ハードウェア、ソフトウェア、またはその 2 つの組み合わせのいずれかです。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">By default, a network will allow anyone to enter and depart as long as they follow the network's routing rules.
+Because of this default behavior, securing a network is challenging.
+For example, in a <x id="1"/>microservices<x id="2"/>-based banking app, the services communicate with one another
+by transmitting highly sensitive financial data through their network.
+A malicious actor may infiltrate the network, intercept communication, and do damage if there was no firewall in place.</source>
+<target xml:lang="ja" state="translated">デフォルトでは、ネットワークのルーティング ルールに従う限り、誰でもネットワークに出入りできます。
+このデフォルトの動作のため、ネットワークを保護することは困難です。
+たとえば、<x id="1"/>マイクロサービス<x id="2"/>ベースのバンキング アプリでは、サービスが相互に通信します
+ネットワークを介して非常に機密性の高い財務データを送信することによって。
+悪意のあるアクターがネットワークに侵入し、通信を傍受し、ファイアウォールが設置されていない場合、損害を与える可能性があります。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">A firewall examines network traffic using pre-defined rules.
+All traffic is filtered, and any traffic coming from untrustworthy or suspect sources is blocked
+— only traffic configured to be accepted gets in.
+Firewalls establish a barrier between secured and controlled internal trusted networks.</source>
+<target xml:lang="ja" state="translated">ファイアウォールは、事前定義されたルールを使用してネットワーク トラフィックを検査します。
+すべてのトラフィックがフィルタリングされ、信頼できないソースまたは疑わしいソースからのトラフィックはブロックされます
+— 受け入れられるように設定されたトラフィックのみが入ります。
+ファイアウォールは、安全で管理された内部の信頼できるネットワークの間に障壁を確立します。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

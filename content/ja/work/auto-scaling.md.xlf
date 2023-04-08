@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/auto-scaling.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Autoscaling is the ability of a system to <x id="1"/>scale<x id="2"/> automatically, typically, in terms of computing resources.
+With an autoscaling system, resources are automatically added when needed and can scale to meet fluctuating user demands.
+The autoscaling process varies and is configurable to scale based on different metrics, such as memory or process time.
+Managed cloud services are typically associated with autoscaling functionality
+as there are more options and implementations available than most on-premise deployments.</source>
+<target xml:lang="ja" state="translated">自動スケーリングとは、システムが自動的に<x id="1"/>スケーリング<x id="2"/>する機能です。通常は、コンピューティング リソースに関してです。
+自動スケーリング システムを使用すると、必要に応じてリソースが自動的に追加され、変動するユーザーの需要に合わせてスケーリングできます。
+自動スケーリング プロセスはさまざまであり、メモリや処理時間などのさまざまなメトリックに基づいてスケーリングするように構成できます。
+マネージド クラウド サービスは通常、自動スケーリング機能に関連付けられています
+ほとんどのオンプレミス展開よりも多くのオプションと実装が利用できるためです。</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Previously, infrastructure and applications were architected to consider peak system usage.
+This architecture meant that more resources were underutilized and inelastic to changing consumer demand.
+The inelasticity meant higher costs to the business and lost business from outages due to overdemand.</source>
+<target xml:lang="ja" state="translated">以前は、インフラストラクチャとアプリケーションは、システムのピーク使用量を考慮して設計されていました。
+このアーキテクチャは、より多くのリソースが十分に活用されておらず、消費者の需要の変化に柔軟に対応できないことを意味していました。
+弾力性がないということは、ビジネスのコストが高くなることを意味し、過剰な需要による機能停止によってビジネスが失われることを意味していました。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">By leveraging the cloud, <x id="1"/>virtualizing<x id="2"/>, and <x id="3"/>containerizing<x id="4"/> applications and their dependencies,
+organizations can build applications that scale according to user demands.
+They can monitor application demand and automatically scale them, providing an optimal user experience.
+Take the increase in viewership Netflix experiences every Friday evening.
+Autoscaling out means dynamically adding more resources: for example,
+increasing the number of servers allowing for more video streaming and scaling back once consumption has normalized.</source>
+<target xml:lang="ja" state="translated">クラウドを活用して、<x id="1"/>仮想化<x id="2"/>し、<x id="3"/>コンテナ化<x id="4"/>アプリケーションとそれらの依存関係、
+組織は、ユーザーの要求に応じてスケーリングするアプリケーションを構築できます。
+アプリケーションの需要を監視し、それらを自動的にスケーリングして、最適なユーザー エクスペリエンスを提供できます。
+毎週金曜日の夜に Netflix で体験した視聴者数の増加を見てみましょう。
+自動スケールアウトとは、リソースを動的に追加することを意味します。たとえば、
+サーバーの数を増やして、より多くのビデオストリーミングを可能にし、消費が正常化したら縮小します。</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Related terms</source>
+<target xml:lang="ja" state="translated">関連用語</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Horizontal Scaling<x id="2"/></source>
+<target xml:lang="ja" state="translated"><x id="1"/>水平スケーリング<x id="2"/></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Vertical Scaling<x id="2"/></source>
+<target xml:lang="ja" state="translated"><x id="1"/>垂直スケーリング<x id="2"/></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

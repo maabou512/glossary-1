@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/distributed-systems.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A distributed system is a collection of autonomous computing elements
+connected over a network that appears to users as a single coherent system.
+Generally referred to as <x id="1"/>nodes<x id="2"/>, these components can be hardware devices (e.g. computers, mobile phones) or software processes.
+Nodes are programmed to achieve a common goal and, to collaborate, they exchange messages over the network.</source>
+<target xml:lang="ja" state="translated">分散システムは、自律的なコンピューティング要素の集まりです
+単一の一貫したシステムとしてユーザーに表示されるネットワークを介して接続されています。
+一般に <x id="1"/>ノード<x id="2"/> と呼ばれるこれらのコンポーネントは、ハードウェア デバイス (コンピュータ、携帯電話など) またはソフトウェア プロセスです。
+ノードは共通の目標を達成するようにプログラムされており、協力するためにネットワークを介してメッセージを交換します。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Numerous modern applications today are so big they'd need supercomputers to operate.
+Think Gmail or Netflix. No single computer is powerful enough to host the entire application.
+By connecting multiple computers, compute power becomes nearly limitless.
+Without distributed computing, many applications we rely on today wouldn't be possible.</source>
+<target xml:lang="ja" state="translated">今日の多くの最新のアプリケーションは非常に大規模であり、運用にはスーパーコンピューターが必要です。
+Gmail や Netflix を考えてみてください。アプリケーション全体をホストできるほど強力な単一のコンピューターはありません。
+複数のコンピュータを接続することで、計算能力はほぼ無限になります。
+分散コンピューティングがなければ、今日私たちが依存している多くのアプリケーションは実現できません。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Traditionally, systems would <x id="1"/>scale<x id="2"/> vertically.
+That's when you add more CPU or memory to an individual machine.
+Vertical scaling is time-consuming, requires downtime, and reaches its limit quickly.</source>
+<target xml:lang="ja" state="translated">従来、システムは垂直に<x id="1"/>スケーリング<x id="2"/>していました。
+それは、個々のマシンに CPU やメモリを追加するときです。
+垂直スケーリングは時間がかかり、ダウンタイムが必要で、すぐに限界に達します。</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Distributed systems allow for <x id="1"/>horizontal scaling<x id="2"/> (e.g. adding more nodes to the system whenever needed).
+This can be automated allowing a system to handle a sudden increase in workload or resource consumption.</source>
+<target xml:lang="ja" state="translated">分散システムでは、<x id="1"/>水平スケーリング<x id="2"/>が可能です (例: 必要に応じてシステムにノードを追加するなど)。
+これを自動化することで、ワークロードやリソース消費の急激な増加にシステムが対処できるようになります。</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">A non-distributed system exposes itself to risks of failure because if one machine fails, the entire system fails.
+A distributed system can be designed in such a way that,
+even if some machines go down, the overall system can still keep working to produce the same result.</source>
+<target xml:lang="ja" state="translated">非分散システムは、1 台のマシンに障害が発生するとシステム全体に障害が発生するため、障害のリスクにさらされます。
+分散システムは、次のように設計できます。
+一部のマシンがダウンしても、システム全体が引き続き機能し、同じ結果が得られます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

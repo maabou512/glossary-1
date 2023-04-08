@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/mutual-transport-layer-security.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Mutual TLS (mTLS) is a technique used to authenticate and encrypt messages sent between two <x id="1"/>services<x id="2"/>.&#13;
+Mutual TLS is the standard <x id="3"/>Transport Layer Security<x id="4"/> (TLS) protocol but,&#13;
+instead of validating the identity of just one connection, both sides are validated.</source>
+<target xml:lang="ja" state="translated">相互 TLS (mTLS) は、2 つの <x id="1"/>サービス<x id="2"/> 間で送信されるメッセージを認証および暗号化するために使用される技術です。&#13;
+相互 TLS は標準の <x id="3"/>Transport Layer Security<x id="4"/> (TLS) プロトコルですが、&#13;
+1 つの接続のみの ID を検証する代わりに、両側が検証されます。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Microservices<x id="2"/> communicate over a network and,&#13;
+just like your wifi network, communication in transit over that network can be hacked.&#13;
+mTLS ensures that no unauthorized party can listen in on or impersonate legitimate requests.</source>
+<target xml:lang="ja" state="translated"><x id="1"/>マイクロサービス<x id="2"/>はネットワークを介して通信し、&#13;
+Wi-Fi ネットワークと同じように、そのネットワークを介した転送中の通信もハッキングされる可能性があります。&#13;
+mTLS は、許可されていない第三者が正当な要求を傍受したり、偽装したりできないようにします。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">mTLS ensures that traffic is secure and trusted in both directions between a client and server,&#13;
+providing an additional layer of security for users who log in to a network or applications.&#13;
+It also verifies connections with client devices that do not follow a login process, such as Internet of Things (IoT) devices.&#13;
+Attacks like on-path attacks, spoofing attacks, credential stuffing, brute force attacks, etc. can be prevented by mTLS.</source>
+<target xml:lang="ja" state="translated">mTLS は、トラフィックがクライアントとサーバー間の両方向で安全で信頼できることを保証します。&#13;
+ネットワークまたはアプリケーションにログインするユーザーに追加のセキュリティ レイヤーを提供します。&#13;
+また、モノのインターネット (IoT) デバイスなど、ログイン プロセスに従わないクライアント デバイスとの接続も検証します。&#13;
+オンパス攻撃、スプーフィング攻撃、クレデンシャル スタッフィング、ブルート フォース攻撃などの攻撃は、mTLS によって防ぐことができます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

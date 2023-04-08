@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/shift-left.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Left in Shift Left refers to earlier stages in a software development lifecycle,
+thinking of the lifecycle as a line where stages are executed from left to right.
+Shift Left is the practice of implementing tests, security, or other development practices
+early in the software development lifecycle rather than towards the end.</source>
+<target xml:lang="ja" state="translated">シフト レフトの左は、ソフトウェア開発ライフサイクルの初期段階を指します。
+ライフサイクルを、ステージが左から右に実行されるラインと考えてください。
+シフト レフトは、テスト、セキュリティ、またはその他の開発手法を実装する手法です。
+ソフトウェア開発ライフサイクルの終わりに向かってではなく、早い段階で。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Although originally used to refer to the process of testing early,
+Shift Left can now also be applied to other aspects of software development and <x id="1"/>DevOps<x id="2"/>, such as security and deployment.</source>
+<target xml:lang="ja" state="translated">もともとは早期にテストするプロセスを指すために使用されていましたが、
+シフト レフトは、セキュリティや展開など、ソフトウェア開発や <x id="1"/>DevOps<x id="2"/> の他の側面にも適用できるようになりました。</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Security issues, bugs, and software defects can be more difficult and expensive to fix
+if they are discovered late in the development cycle or after deployment,
+particularly if the software has already been deployed into production.</source>
+<target xml:lang="ja" state="translated">セキュリティの問題、バグ、ソフトウェアの欠陥は、修正がより困難で費用がかかる可能性があります
+開発サイクルの後半または展開後に発見された場合、
+特に、ソフトウェアがすでに本番環境にデプロイされている場合。</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">By adopting a Shift Left mindset for software development,
+teams can implement testing and security throughout the development lifecycle.
+And because responsibility for testing and security is shared across the development team
+— from software engineers to quality assurance to operations —
+everyone plays a part in ensuring the stability and security of an application.</source>
+<target xml:lang="ja" state="translated">ソフトウェア開発にシフトレフトの考え方を採用することで、
+チームは、開発ライフサイクル全体でテストとセキュリティを実装できます。
+また、テストとセキュリティの責任は開発チーム全体で共有されているため
+— ソフトウェアエンジニアから品質保証、運用まで —
+誰もがアプリケーションの安定性とセキュリティを確保する役割を果たします。</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">In addition, shifting left enables continuous improvement and
+follows an <x id="1"/>agile<x id="2"/> rather than waterfall approach to development.
+Teams can make small iterative improvements and identify problems earlier on.
+This approach allows engineers to adopt security and secure development practices
+as early as the design and architecture phase.
+Testing throughout the development cycle, decreases the time required for testing before a software release.</source>
+<target xml:lang="ja" state="translated">さらに、シフト レフトにより、継続的な改善と改善が可能になります。
+開発へのウォーターフォール アプローチではなく、<x id="1"/>アジャイル<x id="2"/>に従います。
+チームは小規模な反復改善を行い、問題を早期に特定できます。
+このアプローチにより、エンジニアはセキュリティと安全な開発手法を採用できます
+設計とアーキテクチャの段階で。
+開発サイクル全体にわたるテストにより、ソフトウェア リリース前のテストに必要な時間が短縮されます。</target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Many software tools and SaaS solutions help shift these practices left.
+However, shift left can also be implemented through improved processes and cultural changes within a team.</source>
+<target xml:lang="ja" state="translated">多くのソフトウェア ツールと SaaS ソリューションは、これらの慣行をシフトレフトするのに役立ちます。
+ただし、シフトレフトは、プロセスの改善とチーム内の文化的変化によっても実装できます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

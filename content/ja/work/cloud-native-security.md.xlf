@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/cloud-native-security.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Cloud native security is an approach that builds security into <x id="1"/>cloud native applications<x id="2"/>.
+It ensures that security is part of the entire application lifecycle from development to production.
+Cloud native security seeks to ensure the same standards as traditional security models
+while adapting to the particulars of cloud native environments,
+namely rapid code changes and highly ephemeral infrastructure.
+Cloud native security is highly related to the practice called <x id="3"/>DevSecOps<x id="4"/>.</source>
+<target xml:lang="ja" state="translated">クラウド ネイティブ セキュリティは、<x id="1"/>クラウド ネイティブ アプリケーション<x id="2"/>にセキュリティを組み込むアプローチです。
+これにより、セキュリティが開発から本番までのアプリケーション ライフサイクル全体の一部となります。
+クラウド ネイティブ セキュリティは、従来のセキュリティ モデルと同じ基準を確保することを目指しています
+クラウド ネイティブ環境の詳細に適応しながら、
+つまり、迅速なコード変更と非常に一時的なインフラストラクチャです。
+クラウド ネイティブ セキュリティは、<x id="3"/>DevSecOps<x id="4"/> と呼ばれる慣行と密接に関連しています。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Traditional security models were built with a number of assumptions that are no longer valid.
+Cloud native apps change frequently, use a large number of open source tools and libraries,
+often run in vendor-controlled infrastructure, and are subject to rapid infrastructure changes.
+Code reviews, long quality assurance cycles, host-based vulnerability scanning,
+and last minute security reviews cannot scale with cloud native applications.</source>
+<target xml:lang="ja" state="translated">従来のセキュリティ モデルは、もはや有効ではない多くの仮定を使用して構築されていました。
+クラウド ネイティブ アプリは頻繁に変更され、多数のオープン ソース ツールとライブラリを使用し、
+多くの場合、ベンダーが管理するインフラストラクチャで実行され、インフラストラクチャが急速に変更される可能性があります。
+コードレビュー、長期の品質保証サイクル、ホストベースの脆弱性スキャン、
+また、土壇場でのセキュリティ レビューは、クラウド ネイティブ アプリケーションでは拡張できません。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Cloud native security introduces a new way of working that protects applications
+by migrating from traditional security models to one where security is involved in every step of the release cycle.
+Manual audits and checks are largely replaced with automated scans.
+Rapid code release pipelines are integrated with tools that scan code for vulnerabilities before they’re compiled.
+Open source libraries are pulled from trusted sources and monitored for vulnerabilities.
+Instead of slowing change a cloud native security model embraces it
+by frequently updated vulnerable components or ensuring infrastructure is regularly replaced.</source>
+<target xml:lang="ja" state="translated">クラウド ネイティブ セキュリティは、アプリケーションを保護する新しい働き方を導入します
+従来のセキュリティ モデルから、リリース サイクルのすべてのステップにセキュリティが関与するモデルに移行することによって。
+手動の監査とチェックは、自動スキャンに大幅に置き換えられます。
+迅速なコード リリース パイプラインは、コンパイル前にコードの脆弱性をスキャンするツールと統合されています。
+オープンソース ライブラリは信頼できるソースから取得され、脆弱性が監視されます。
+変化を遅らせる代わりに、クラウド ネイティブ セキュリティ モデルがそれを受け入れる
+脆弱なコンポーネントを頻繁に更新するか、インフラストラクチャを定期的に交換します。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

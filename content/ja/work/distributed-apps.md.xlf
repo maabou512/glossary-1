@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/distributed-apps.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A distributed application is an application where the functionality is broken down into multiple smaller independent parts.
+Distributed applications are usually composed of individual <x id="1"/>microservices<x id="2"/>
+that handle different concerns within the broader application.
+In a cloud native environment, the individual components typically run as <x id="3"/>containers<x id="4"/> on a <x id="5"/>cluster<x id="6"/>.</source>
+<target xml:lang="ja" state="translated">分散アプリケーションとは、機能が複数の小さな独立した部分に分割されているアプリケーションです。
+分散アプリケーションは通常、個々の<x id="1"/>マイクロサービス<x id="2"/>で構成されます
+より広いアプリケーション内のさまざまな問題を処理します。
+	クラウド ネイティブ環境では、個々のコンポーネントは通常、<x id="5"/>クラスター<x id="6" 上の=""/> <x id="5" />コンテナー<x id="4"/> として実行されます。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">An application running on one single computer represents a single point of failure — if that computer fails, the application becomes unavailable.
+Distributed applications are often contrasted to <x id="1"/>monolithic applications<x id="2"/>.
+A monolithic app can be harder to scale as the various components can't be scaled independently.
+They can also become a drag on developer velocity as they grow
+because more developers need to work on a shared codebase that doesn't necessarily have well defined boundaries.</source>
+<target xml:lang="ja" state="translated">1 台のコンピューターで実行されているアプリケーションは、単一障害点を表します。そのコンピューターに障害が発生すると、アプリケーションは使用できなくなります。
+分散アプリケーションは、多くの場合、<x id="1"/>モノリシック アプリケーション<x id="2"/>と対比されます。
+モノリシック アプリは、さまざまなコンポーネントを個別にスケーリングできないため、スケーリングが難しくなる可能性があります。
+また、成長するにつれて、開発者のベロシティの足かせになる可能性もあります
+より多くの開発者が、必ずしも境界が明確に定義されていない共有コードベースで作業する必要があるためです。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">When splitting an application into different pieces and running them in many places, the overall system can tolerate more failures.
+It also allows an application to take advantage of scaling features not available to a single application instance,
+namely the ability to <x id="1"/>scale horizontally<x id="2"/>.
+This does, however, come at a cost: increased complexity and operational overhead
+— you’re now running lots of application components instead of one app.</source>
+<target xml:lang="ja" state="translated">アプリケーションを複数の部分に分割して多くの場所で実行すると、システム全体でより多くの障害を許容できます。
+また、アプリケーションは、単一のアプリケーション インスタンスでは利用できないスケーリング機能を利用できます。
+つまり、<x id="1"/>水平方向にスケーリング<x id="2"/>する機能です。
+ただし、これには代償が伴います。複雑さと運用上のオーバーヘッドが増加します。
+— 1 つのアプリではなく、多数のアプリケーション コンポーネントを実行しています。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

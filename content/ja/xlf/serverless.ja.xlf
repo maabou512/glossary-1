@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/serverless.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Serverless is a cloud native development model that allows developers to
+build and run applications without having to manage servers.
+There are still servers in serverless, but they are <x id="1"/>abstracted<x id="2"/> away from app development.
+A cloud provider handles the routine work of provisioning, maintaining, and <x id="3"/>scaling<x id="4"/> the server infrastructure.
+Developers can simply package their code in <x id="5"/>containers<x id="6"/> for deployment.
+Once deployed, serverless apps respond to demand and automatically scale up and down as needed.
+Serverless offerings from public cloud providers are usually metered on-demand through an event-driven execution model.
+As a result, when a serverless function is sitting idle, it doesn’t cost anything.</source>
+<target xml:lang="ja" state="translated">サーバーレスは、開発者が以下を可能にするクラウド ネイティブ開発モデルです。
+サーバーを管理することなく、アプリケーションを構築して実行できます。
+サーバーレスにはまだサーバーがありますが、アプリ開発からは<x id="1"/>抽象化されています<x id="2"/>。
+クラウド プロバイダは、サーバー インフラストラクチャのプロビジョニング、保守、<x id="3"/>スケーリング<x id="4"/>の日常業務を処理します。
+開発者は、コードを <x id="5"/>コンテナ<x id="6"/> にパッケージ化して展開できます。
+デプロイされると、サーバーレス アプリは需要に対応し、必要に応じて自動的にスケールアップおよびスケールダウンします。
+パブリック クラウド プロバイダーが提供するサーバーレス サービスは、通常、イベント ドリブンの実行モデルを通じてオンデマンドで計測されます。
+その結果、サーバーレス機能がアイドル状態の場合、費用はかかりません。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Under a standard <x id="1"/>Infrastructure-as-a-Service (IaaS)<x id="2"/> <x id="3"/>cloud computing<x id="4"/> model,
+users pre-purchase units of capacity, meaning you pay a public cloud provider for always-on server components to run your apps.
+It’s the user’s responsibility to scale up server capacity during times of high demand and
+to scale down when that capacity is no longer needed.
+The cloud infrastructure necessary to run an app is active even when the app isn’t being used.</source>
+<target xml:lang="ja" state="translated">標準の<x id="1"/>Infrastructure-as-a-Service (IaaS)<x id="2"/> <x id="3"/>クラウド コンピューティング<x id="の下で4"/>モデル、
+ユーザーはキャパシティーの単位を事前に購入します。つまり、アプリを実行するための常時稼働サーバー コンポーネントに対してパブリック クラウド プロバイダーに料金を支払います。
+需要の高い時間帯にサーバー容量をスケールアップするのはユーザーの責任です。
+その容量が不要になったときにスケールダウンします。
+アプリを実行するために必要なクラウド インフラストラクチャは、アプリが使用されていないときでもアクティブです。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">With serverless architecture, by contrast, apps are launched only as needed.
+When an event triggers app code to run, the public cloud provider dynamically allocates resources for that code.
+The user stops paying when the code finishes executing.
+In addition to the cost and efficiency benefits,
+serverless frees developers from routine and menial tasks associated with app scaling and server provisioning.
+With serverless, routine tasks such as managing the operating system and file system, security patches,
+load balancing, capacity management, scaling, logging, and monitoring are all offloaded to a cloud services provider.</source>
+<target xml:lang="ja" state="translated">対照的に、サーバーレス アーキテクチャでは、アプリは必要な場合にのみ起動されます。
+イベントによってアプリ コードの実行がトリガーされると、パブリック クラウド プロバイダーはそのコードに動的にリソースを割り当てます。
+コードの実行が終了すると、ユーザーは支払いを停止します。
+コストと効率の利点に加えて、
+サーバーレスにより、開発者は、アプリのスケーリングやサーバーのプロビジョニングに関連する日常的で単純なタスクから解放されます。
+オペレーティング システムとファイル システムの管理、セキュリティ パッチ、
+ロード バランシング、キャパシティ管理、スケーリング、ロギング、モニタリングはすべてクラウド サービス プロバイダーにオフロードされます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

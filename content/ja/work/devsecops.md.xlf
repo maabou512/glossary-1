@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/devsecops.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">The term DevSecOps refers to a cultural merger of the development, operational, and security responsibilities.
+It extends the <x id="1"/>DevOps<x id="2"/> approach to include security priorities
+with minimal to no disruption in the developer and operational workflow.
+Like DevOps, DevSecOps is a cultural shift, pushed by the technologies adopted, with unique adoption methods.</source>
+<target xml:lang="ja" state="translated">DevSecOps という用語は、開発、運用、およびセキュリティの責任の文化的融合を指します。
+<x id="1"/>DevOps<x id="2"/> アプローチを拡張してセキュリティの優先事項を含める
+開発者と運用ワークフローの中断を最小限に抑えます。
+DevOps と同様に、DevSecOps は文化的な変化であり、採用されたテクノロジによって推進され、独自の採用方法が採用されています。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">DevOps practices include <x id="1"/>continuous integration<x id="2"/> and <x id="3"/>continuous deployment<x id="4"/>
+and accelerate application development and release cycles.
+Unfortunately, automated release processes that fail to represent
+all organizational stakeholders adequately can exacerbate existing issues.
+A process that rapidly releases new software without considering security needs
+can degrade an organizations’ security posture.</source>
+<target xml:lang="ja" state="translated">DevOps プラクティスには、<x id="1"/>継続的統合<x id="2"/>と<x id="3"/>継続的導入<x id="4"/>が含まれます
+アプリケーションの開発とリリースのサイクルを加速します。
+残念ながら、自動化されたリリース プロセスは、
+すべての組織の利害関係者は、既存の問題を適切に悪化させる可能性があります。
+セキュリティの必要性を考慮せずに新しいソフトウェアを迅速にリリースするプロセス
+組織のセキュリティ体制を悪化させる可能性があります。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">DevSecOps focuses on breaking down team silos and promotes the creation of secure, automated workflows.
+When selecting security applications, organizations must take advantage of
+automated CI/CD workflows and policy enforcement that empower the developer.
+The goal is not to be a blocker but to enforce security policies
+while giving users accurate information on how to move their project forward.
+When properly implemented, an organization will gain better team communication and
+reduce security mishaps and associated costs.</source>
+<target xml:lang="ja" state="translated">DevSecOps は、チームの縦割りを打破し、安全で自動化されたワークフローの作成を促進することに重点を置いています。
+セキュリティ アプリケーションを選択する際、組織は次の利点を活用する必要があります。
+開発者に力を与える自動化された CI/CD ワークフローとポリシーの適用。
+目標はブロッカーになることではなく、セキュリティ ポリシーを適用することです
+プロジェクトを前進させる方法に関する正確な情報をユーザーに提供します。
+適切に実装された場合、組織はより良いチームコミュニケーションを獲得し、
+セキュリティ事故と関連コストを削減します。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

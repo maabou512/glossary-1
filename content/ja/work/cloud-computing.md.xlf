@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/cloud-computing.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Cloud computing is a model that offers compute resources like CPU, network, and disk capabilities on-demand over the internet.
+Cloud computing gives users the ability to access and use computing power in a remote physical location.
+Cloud providers like AWS, GCP, Azure, DigitalOcean, and others all offer third parties
+the ability to rent access to compute resources in multiple geographic locations.</source>
+<target xml:lang="ja" state="translated">クラウド コンピューティングは、CPU、ネットワーク、ディスク機能などのコンピューティング リソースをインターネット経由でオンデマンドで提供するモデルです。
+クラウド コンピューティングにより、ユーザーは物理的に離れた場所にあるコンピューティング能力にアクセスして使用することができます。
+AWS、GCP、Azure、DigitalOcean などのクラウド プロバイダーはすべてサードパーティを提供しています
+複数の地理的な場所にあるコンピューティング リソースへのアクセスをレンタルする機能。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Organizations traditionally faced two main problems when attempting to expand their use of computing power.
+They either acquire, support, design, and pay for facilities
+to host their physical servers and network or expand and maintain those facilities.
+Cloud computing allows organizations to outsource some portion of their computing needs to another organization.</source>
+<target xml:lang="ja" state="translated">これまで、組織はコンピューティング能力の使用を拡大しようとする際、2 つの主な問題に直面していました。
+施設の取得、サポート、設計、支払いのいずれかを行う
+物理サーバーとネットワークをホストしたり、それらの施設を拡張および保守したりします。
+クラウド コンピューティングにより、組織はコンピューティング ニーズの一部を別の組織にアウトソーシングできます。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Cloud providers offer organizations the ability to rent compute resources on-demand and pay for usage.
+This allows for two major innovations:
+Organizations can focus on their product or service without waiting, planning, and spending resources on new physical infrastructure. They can simply <x id="1"/>scale<x id="2"/> as needed and on-demand.
+Cloud computing allows organizations to adopt as much or as little infrastructure as they need.</source>
+<target xml:lang="ja" state="translated">クラウド プロバイダは、コンピューティング リソースをオンデマンドでレンタルし、使用料を支払う機能を組織に提供します。
+これにより、次の 2 つの主要な革新が可能になります。
+組織は、新しい物理インフラストラクチャを待ったり、計画したり、リソースを費やしたりすることなく、製品やサービスに集中できます。必要に応じてオンデマンドで簡単に<x id="1"/>スケーリング<x id="2"/>できます。
+クラウド コンピューティングにより、組織は必要なだけインフラストラクチャを導入できます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

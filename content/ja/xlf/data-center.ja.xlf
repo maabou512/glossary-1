@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/data-center.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A datacenter is a specialized building or facility designed to house computers, most often servers.
+These datacenters tend to be connected to high-speed internet lines, especially when focused on <x id="1"/>cloud computing<x id="2"/>.
+The buildings housing datacenters are equipped to maintain service even during adverse events, including generators that provide power during outages and powerful air conditioning that keep the heat-producing computers cool.</source>
+<target xml:lang="ja" state="translated">データセンターとは、コンピュータ (ほとんどの場合、サーバー) を収容するために設計された特殊な建物または施設です。
+これらのデータセンターは、特に<x id="1"/>クラウド コンピューティング<x id="2"/>に重点を置く場合、高速インターネット回線に接続される傾向があります。
+データセンターを収容する建物には、停電時に電力を供給する発電機や、熱を発生するコンピューターを冷却する強力な空調など、悪天候時でもサービスを維持するための設備が整っています。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Before datacenters became prevalent in the late 1990ies, there were mainly individual computers with specific tasks or those used by individuals to do their work.</source>
+<target xml:lang="ja" state="translated">1990 年代後半にデータセンターが普及する前は、主に特定のタスクを実行する個々のコンピューターや、個人が仕事をするために使用するコンピューターがありました。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">But computers have limited resources (disk, RAM, and CPU).
+That means that applications running on them have the same hard constraints, limiting the kinds of applications it can run.
+Before datacenters, the scale of the application was constrained by the capacity of the computer it was running on.
+But if you think about apps at scale like Gmail or Netflix (the app, not the user interface you have on your phone or computer), those need more computing capacity than any one computer can provide.
+And that's where datacenters come in.</source>
+<target xml:lang="ja" state="translated">しかし、コンピューターのリソース (ディスク、RAM、および CPU) は限られています。
+つまり、その上で実行されるアプリケーションには同じ厳しい制約があり、実行できるアプリケーションの種類が制限されます。
+データセンターが登場する前は、アプリケーションの規模は、それが実行されているコンピューターの容量によって制限されていました。
+しかし、Gmail や Netflix のような大規模なアプリ (携帯電話やコンピューターのユーザー インターフェイスではなくアプリ) について考えると、1 台のコンピューターが提供できるよりも多くのコンピューティング能力が必要になります。
+そこでデータセンターの出番です。</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">By connecting various servers, users can create a <x id="1"/>distributed system<x id="2"/> that functions like a "supercomputer."
+Because we are bundling the power of several machines, we can now run much bigger apps or process much more powerful computational tasks.
+Datacenters power most applications we use on a daily basis.</source>
+<target xml:lang="ja" state="translated">さまざまなサーバーを接続することで、ユーザーは「スーパーコンピューター」のような<x id="1"/>分散システム<x id="2"/>を構築できます。
+複数のマシンのパワーをバンドルしているため、より大きなアプリを実行したり、より強力な計算タスクを処理したりできるようになりました。
+データセンターは、私たちが日常的に使用するほとんどのアプリケーションを支えています。</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Public clouds<x id="2"/> are datacenters that rent out capacity to their clients.
+Over the past years, we have seen a move from enterprise-owned datacenters to the cloud.</source>
+<target xml:lang="ja" state="translated"><x id="1"/>パブリック クラウド<x id="2"/>は、クライアントに容量を貸し出すデータセンターです。
+ここ数年、企業所有のデータセンターからクラウドへの移行が見られました。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/containers-as-a-service.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Containers-as-a-Service (CaaS) is a cloud service that helps manage and deploy apps
+using <x id="1"/>container<x id="2"/>-based <x id="3"/>abstraction<x id="4"/>.
+This service can be deployed on-premises or in the cloud.</source>
+<target xml:lang="ja" state="translated">Containers-as-a-Service (CaaS) は、アプリの管理と展開を支援するクラウド サービスです。
+<x id="1"/>コンテナ<x id="2"/>ベースの<x id="3"/>抽象化<x id="4"/>を使用。
+このサービスは、オンプレミスまたはクラウドにデプロイできます。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">CaaS providers offer a framework or orchestration platform that
+automates key IT functions on which containers are deployed and managed.
+It helps developers build secure and <x id="1"/>scalable<x id="2"/> containerized apps.
+Because users only buy the resources they need (scheduling capabilities, load balancing, etc.),
+they save money and increase efficiency.
+Containers create consistent environments to rapidly develop and
+deliver <x id="3"/>cloud-native applications<x id="4"/> that can run anywhere.</source>
+<target xml:lang="ja" state="translated">CaaS プロバイダーは、フレームワークまたはオーケストレーション プラットフォームを提供します。
+コンテナが展開および管理される主要な IT 機能を自動化します。
+開発者が安全で<x id="1"/>スケーラブルな<x id="2"/>コンテナ化されたアプリを構築するのに役立ちます。
+ユーザーは必要なリソース (スケジューリング機能、負荷分散など) のみを購入するため、
+彼らはお金を節約し、効率を高めます。
+コンテナーは、一貫した環境を作成して、迅速に開発し、
+どこでも実行できる<x id="3"/>クラウド ネイティブ アプリケーション<x id="4"/>を提供します。</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Without CaaS, software development teams need to deploy, manage, and monitor
+the underlying infrastructure that containers run on.</source>
+<target xml:lang="ja" state="translated">CaaS がなければ、ソフトウェア開発チームは導入、管理、監視を行う必要があります
+コンテナーが実行される基盤となるインフラストラクチャ。</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">When deploying containerized applications to a CaaS platform,
+users gain visibility into system performance through log aggregation and monitoring tools.
+CaaS also includes built-in functionality for <x id="1"/>auto scaling<x id="2"/> and orchestration management.
+It enables teams to build high visibility and high availability <x id="3"/>distributed systems<x id="4"/>.
+In addition, by allowing rapid deployments, CaaS increases team development velocity.
+While containers ensure a consistent deployment target,
+CaaS lowers engineering operating costs
+by reducing needed <x id="5"/>DevOps<x id="6"/> resources needed to manage a deployment.</source>
+<target xml:lang="ja" state="translated">コンテナ化されたアプリケーションを CaaS プラットフォームに展開する場合、
+ユーザーは、ログの集約と監視ツールを通じてシステム パフォーマンスを可視化できます。
+CaaS には、<x id="1"/>自動スケーリング<x id="2"/>とオーケストレーション管理のための機能も組み込まれています。
+これにより、チームは可視性と可用性の高い<x id="3"/>分散システム<x id="4"/>を構築できます。
+さらに、CaaS は迅速な展開を可能にすることで、チームの開発速度を向上させます。
+コンテナーは一貫したデプロイ ターゲットを保証しますが、
+CaaS によるエンジニアリング運用コストの削減
+デプロイメントの管理に必要な <x id="5"/>DevOps<x id="6"/> リソースを削減することによって。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

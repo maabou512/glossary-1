@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/container-image.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A container image is an immutable, static file containing the dependencies for the creation of a <x id="1"/>container<x id="2"/>.
+These dependencies may include a single executable binary file, system libraries,
+system tools, environment variables, and other required platform settings.
+Container images result from an application's <x id="3"/>containerization<x id="4"/> and are typically stored in container registries,
+where they can be downloaded and run as an isolated process using a Container Runtime Interface (CRI).
+A container image framework must follow the standard schema defined by the Open Container Initiative (OCI).</source>
+<target xml:lang="ja" state="translated">コンテナ イメージは、<x id="1"/>コンテナ<x id="2"/>を作成するための依存関係を含む不変の静的ファイルです。
+これらの依存関係には、単一の実行可能なバイナリ ファイル、システム ライブラリ、
+システム ツール、環境変数、およびその他の必要なプラットフォーム設定。
+コンテナ イメージは、アプリケーションの<x id="3"/>コンテナ化<x id="4"/>の結果であり、通常はコンテナ レジストリに保存されます。
+Container Runtime Interface (CRI) を使用して、分離されたプロセスとしてダウンロードして実行できます。
+コンテナー イメージ フレームワークは、Open Container Initiative (OCI) によって定義された標準スキーマに従う必要があります。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Traditionally, application servers are configured per environment, and applications are deployed to them.
+Any misconfiguration between environments is problematic and often leads to downtime or failed deployments.
+An application's environment needs to be repeatable and well-defined;
+otherwise, the chance of environment-related bugs increases.
+When application environments are configured inadequately or inaccurate,
+<x id="1"/>horizontal<x id="2"/> and <x id="3"/>vertical<x id="4"/> scaling of applications becomes challenging.</source>
+<target xml:lang="ja" state="translated">従来、アプリケーション サーバーは環境ごとに構成され、アプリケーションが展開されていました。
+環境間の構成ミスは問題であり、多くの場合、ダウンタイムや展開の失敗につながります。
+アプリケーションの環境は、再現可能で明確に定義されている必要があります。
+そうしないと、環境関連のバグが発生する可能性が高くなります。
+アプリケーション環境が不適切または不正確に構成されている場合、
+アプリケーションの<x id="1"/>水平<x id="2"/>および<x id="3"/>垂直<x id="4"/>スケーリングが困難になります。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Container images bundle an application with any of its runtime dependencies, such as an application server.
+This provides consistency across all environments, including a developer's machine.
+Container images can be used to instantiate as many containers as needed, allowing for greater <x id="1"/>scalability<x id="2"/>.</source>
+<target xml:lang="ja" state="translated">コンテナ イメージは、アプリケーション サーバーなどの実行時の依存関係を含むアプリケーションをバンドルします。
+これにより、開発者のマシンを含むすべての環境で一貫性が提供されます。
+コンテナ イメージを使用して、必要な数のコンテナをインスタンス化できるため、<x id="1"/>スケーラビリティ<x id="2"/>が向上します。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

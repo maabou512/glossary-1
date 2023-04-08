@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/security-chaos-engineering.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Security Chaos Engineering or SCE is a discipline based on <x id="1"/>Chaos Engineering<x id="2"/>.
+SCE performs proactive security experimentation on a distributed system
+to build confidence in the system's capability to withstand turbulent and malicious conditions.
+Security chaos engineers use scientific method loops to achieve this,
+including steady-state, hypothesis, continuous verification, lesson learned, and mitigation implementation.</source>
+<target xml:lang="ja" state="translated">セキュリティ カオス エンジニアリングまたは SCE は、<x id="1"/>カオス エンジニアリング<x id="2"/>に基づく分野です。
+SCE は、分散システムでプロアクティブなセキュリティ実験を実行します
+乱気流や悪意のある状況に耐えるシステムの能力に対する信頼を構築します。
+セキュリティ カオス エンジニアは、科学的方法のループを使用してこれを達成します。
+これには、定常状態、仮説、継続的な検証、教訓、緩和策の実施が含まれます。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">The main priority for <x id="1"/>site reliability engineers<x id="2"/> (SREs) and cyber security engineers is
+to restore service as fast as possible with the goal of achieving zero downtime and minimizing business impact.
+SREs and cyber security engineers deal both with pre-failure and post-failure incidents situations.
+Most security issues are challenging to discover and patch quickly, impacting application or system functionality.
+Additionally, security incidents are usually tricky to uncover during the development phase.</source>
+<target xml:lang="ja" state="translated"><x id="1"/>サイト信頼性エンジニア<x id="2"/> (SRE) とサイバー セキュリティ エンジニアの主な優先事項は、
+ゼロ ダウンタイムを達成し、ビジネスへの影響を最小限に抑えることを目標に、できるだけ早くサービスを復元します。
+SRE とサイバー セキュリティ エンジニアは、障害発生前と障害発生後のインシデントの両方の状況に対処します。
+ほとんどのセキュリティ問題は、アプリケーションやシステムの機能に影響を与え、迅速に発見してパッチを当てることが困難です。
+さらに、セキュリティ インシデントは通常、開発段階で発見するのが難しいものです。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Security Chaos Engineering is built around <x id="1"/>observability<x id="2"/> and cyber resiliency practices.
+It aims to uncover the "unknown unknowns" and build confidence in the system,
+increasing cyber resiliency and improving observability.</source>
+<target xml:lang="ja" state="translated">セキュリティ カオス エンジニアリングは、<x id="1"/>オブザーバビリティ<x id="2"/>とサイバー レジリエンス プラクティスを中心に構築されています。
+「未知の未知」を明らかにし、システムへの信頼を築くことを目指し、
+サイバー レジリエンスの向上とオブザーバビリティの向上。</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Engineering teams will progressively improve the understanding for security concerns
+within complex infrastructure, platforms, and distributed systems.
+SCE improves the cyber resiliency of the entire product, uncovers hidden security issues,
+exposes the classical blind spots, and prepares teams for critical edge cases.
+This approach helps SREs, <x id="1"/>DevOps<x id="2"/> and <x id="3"/>DevSecOps<x id="4"/> engineers
+create confidence in the system, increase cyber resiliency and improve observability.</source>
+<target xml:lang="ja" state="translated">エンジニアリング チームは、セキュリティ上の懸念に対する理解を徐々に深めていきます
+複雑なインフラストラクチャ、プラットフォーム、および分散システム内で。
+SCE は、製品全体のサイバー レジリエンスを向上させ、隠れたセキュリティ問題を明らかにし、
+従来の盲点を明らかにし、チームが重大なエッジ ケースに備えるようにします。
+このアプローチは、SRE、<x id="1"/>DevOps<x id="2"/>、<x id="3"/>DevSecOps<x id="4"/> エンジニアに役立ちます
+システムの信頼性を高め、サイバー レジリエンスを高め、オブザーバビリティを向上させます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

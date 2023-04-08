@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/virtualization.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Virtualization, in the context of cloud native computing,
+refers to the process of taking a physical computer, sometimes called a server,
+and allowing it to run multiple isolated operating systems.
+Those isolated operating systems and their dedicated compute resources (CPU, memory, and network) are
+referred to as virtual machines or VMs.
+When we talk about a <x id="1"/>virtual machine<x id="2"/>, we’re talking about a software-defined computer.
+Something that looks and acts like a real computer but is sharing hardware with other virtual machines.
+<x id="3"/>Cloud computing<x id="4"/> is primarily powered by virtualization technology.
+As an example, you can lease a "computer" from AWS – that computer is actually a VM.</source>
+<target xml:lang="ja" state="translated">仮想化は、クラウド ネイティブ コンピューティングのコンテキストでは、
+サーバーと呼ばれることもある物理的なコンピューターを使用するプロセスを指します。
+複数の独立したオペレーティング システムを実行できるようにします。
+これらの分離されたオペレーティング システムと専用のコンピューティング リソース (CPU、メモリ、およびネットワーク) は、
+仮想マシンまたは VM と呼ばれます。
+<x id="1"/>仮想マシン<x id="2"/>について話すときは、ソフトウェア定義のコンピューターについて話しています。
+見た目も動作も実際のコンピューターのようですが、他の仮想マシンとハードウェアを共有しているもの。
+<x id="3"/>クラウド コンピューティング<x id="4"/>は、主に仮想化テクノロジーによって支えられています。
+例として、AWS から「コンピューター」をリースできます。そのコンピューターは実際には VM です。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Virtualization addresses a number of problems, including the improvement of physical hardware usage
+by allowing more apps to run on the same physical machine
+whilst still being isolated from each other for security.</source>
+<target xml:lang="ja" state="translated">仮想化は、物理ハードウェアの使用率の向上など、多くの問題に対処します
+同じ物理マシンでより多くのアプリを実行できるようにすることで
+セキュリティのために互いに分離されています。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Apps running on virtual machines have no awareness that they are sharing a physical computer.
+Virtualization also allows the users of the datacenter to spin up a new "computer" (aka a VM) in minutes
+without worrying about the physical constraints of adding a new computer to a datacenter.
+VMs also enable users to speed up the time to get a new virtual computer.</source>
+<target xml:lang="ja" state="translated">仮想マシンで実行されているアプリは、物理コンピューターを共有していることを認識していません。
+仮想化により、データセンターのユーザーは数分で新しい「コンピューター」(別名 VM) をスピンアップすることもできます
+新しいコンピューターをデータセンターに追加する際の物理的な制約について心配する必要はありません。
+また、VM を使用すると、ユーザーは新しい仮想コンピューターを取得するまでの時間を短縮できます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

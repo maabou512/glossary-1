@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/cloud-native-tech.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Cloud native technologies, also referred to as the cloud native stack,
+are the technologies used to build <x id="1"/>cloud native applications<x id="2"/>.
+These technologies enable organizations to build and run scalable applications in modern and dynamic environments
+such as public, private, and hybrid clouds,
+while leveraging <x id="3"/>cloud computing<x id="4"/> benefits to their fullest.
+They are designed from the ground up to exploit the capabilities of cloud computing and containers, service meshes, microservices,
+and immutable infrastructure exemplify this approach.</source>
+<target xml:lang="ja" state="translated">クラウド ネイティブ スタックとも呼ばれるクラウド ネイティブ テクノロジーは、
+<x id="1"/>クラウド ネイティブ アプリケーション<x id="2"/>の構築に使用されるテクノロジーです。
+これらのテクノロジにより、組織は最新の動的な環境でスケーラブルなアプリケーションを構築および実行できます。
+パブリック クラウド、プライベート クラウド、ハイブリッド クラウドなど、
+<x id="3"/>クラウド コンピューティング<x id="4"/>のメリットを最大限に活用しながら。
+それらは、クラウド コンピューティングとコンテナー、サービス メッシュ、マイクロサービス、
+不変のインフラストラクチャは、このアプローチを例示しています。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">The cloud native stack has many different technology categories, addressing a variety of challenges.
+If you have a look at the <x id="1"/>CNCF Cloud Native Landscape<x id="2"/>,
+you'll see how many different areas it touches upon.
+But on a high level, they address one main set of challenges:
+the downsides of traditional IT operating models.
+Challenges include difficulties creating scalable, fault-tolerant, self-healing applications,
+as well as inefficient resource utilization, among others.</source>
+<target xml:lang="ja" state="translated">クラウド ネイティブ スタックにはさまざまなテクノロジー カテゴリがあり、さまざまな課題に対処しています。
+<x id="1"/>CNCF クラウド ネイティブ ランドスケープ<x id="2"/>を見ると、
+触れているさまざまな領域がいくつあるかがわかります。
+しかし、大まかに言えば、これらは 1 つの主な課題に対処しています。
+従来の IT 運用モデルの欠点。
+課題には、スケーラブルでフォールト トレラントな自己修復アプリケーションを作成することの難しさがあります。
+とりわけ、非効率的なリソースの利用など。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">While each technology addresses a very specific problem,
+as a group, cloud native technologies enable loosely coupled systems that are resilient, manageable, and observable.
+Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.
+Desirable traits of cloud native systems are easier to achieve with the cloud native stack.</source>
+<target xml:lang="ja" state="translated">それぞれのテクノロジーは非常に具体的な問題に対処しますが、
+グループとして、クラウド ネイティブ テクノロジは、回復力があり、管理可能で、監視可能な疎結合システムを実現します。
+堅牢な自動化と組み合わせることで、エンジニアは最小限の労力で、影響の大きい変更を頻繁かつ予測どおりに行うことができます。
+クラウド ネイティブ システムの望ましい特性は、クラウド ネイティブ スタックを使用すると実現しやすくなります。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

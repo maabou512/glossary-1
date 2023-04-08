@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/abstraction.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">In the context of computing, an abstraction is a representation that
+hides specifics from a consumer of <x id="1"/>services<x id="2"/>
+(a consumer being a computer program or human),
+making a system more generic and thus easily understood.
+A good example is your laptop's operating system (OS).
+It abstracts away all the details of how your computer works.
+You don't need to know anything about CPU, memory, and how programs are handled,
+you just operate the OS and the OS deals with the details.
+All these details are hidden behind the OS "curtain" or abstraction.</source>
+<target xml:lang="ja" state="translated">コンピューティングのコンテキストでは、抽象化とは、
+<x id="1"/>サービス<x id="2"/>の消費者から詳細を隠す
+(コンピュータ プログラムまたは人間である消費者)、
+システムをより一般的なものにして、簡単に理解できるようにします。
+良い例は、ラップトップのオペレーティング システム (OS) です。
+コンピューターの動作の詳細をすべて抽象化します。
+CPU、メモリ、プログラムの処理方法について何も知る必要はありません。
+OS を操作するだけで、OS が詳細を処理します。
+これらの詳細はすべて、OS の「カーテン」または抽象化の背後に隠されています。</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Systems typically have multiple abstraction layers.
+This significantly simplifies development.
+When programming, developers build components compatible with a particular abstraction layer and
+don't have to worry about all underlying specifics that can be very heterogeneous.
+If it works with the abstraction layer, it works with the system
+— no matter what's under the hood.</source>
+<target xml:lang="ja" state="translated">通常、システムには複数の抽象化レイヤーがあります。
+これにより、開発が大幅に簡素化されます。
+プログラミング時に、開発者は特定の抽象化レイヤーと互換性のあるコンポーネントを構築し、
+非常に異質である可能性があるすべての基本的な詳細について心配する必要はありません。
+抽象化レイヤーで動作する場合、システムで動作します
+—ボンネットの下にあるものに関係なく。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

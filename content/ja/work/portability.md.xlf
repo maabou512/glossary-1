@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/portability.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">A software characteristic, portability is a form of reusability that helps to avoid "lock-in" to certain operating environments,
+e.g. cloud providers, operating systems or vendors.</source>
+<target xml:lang="ja" state="translated">ソフトウェアの特徴である移植性は、特定の動作環境への「ロックイン」を回避するのに役立つ再利用性の一種です。
+例えばクラウド プロバイダー、オペレーティング システム、またはベンダー。</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Traditionally, software is often built for specific environments (e.g. AWS or Linux).
+Portable software, on the other hand, works in different operating environments without needing major rework.
+An application is considered portable if the effort required to adapt it to a new environment is within reasonable limits.
+The phrase "to port" means to modify software and make it adaptable to work on a different computer system.</source>
+<target xml:lang="ja" state="translated">伝統的に、ソフトウェアは特定の環境 (AWS や Linux など) 向けに構築されることがよくあります。
+一方、移植可能なソフトウェアは、大幅な手直しを必要とせずに、さまざまな動作環境で動作します。
+アプリケーションを新しい環境に適応させるために必要な労力が妥当な範囲内にある場合、そのアプリケーションは移植可能であると見なされます。
+「移植する」という表現は、ソフトウェアを変更して、別のコンピュータ システムで動作するように適応させることを意味します。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/continuous-deployment.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Continuous deployment, often abbreviated as CD, goes a step further than <x id="1"/>continuous delivery<x id="2"/>
+by deploying finished software directly to production.
+Continuous deployment (CD) goes hand in hand with <x id="3"/>continuous integration<x id="4"/> (CI),
+and is often referred to as CI/CD.
+The CI process tests if the changes to a given application are valid,
+and the CD process automatically deploys the code changes through an organization's environments from test to production.</source>
+<target xml:lang="ja" state="translated">CD と略されることが多い継続的導入は、<x id="1"/>継続的配信<x id="2"/>よりもさらに一歩進んだものです。
+完成したソフトウェアを本番環境に直接デプロイすることによって。
+継続的導入 (CD) は、<x id="3"/>継続的統合<x id="4"/> (CI) と密接に関連しています。
+多くの場合、CI/CD と呼ばれます。
+CI プロセスは、特定のアプリケーションへの変更が有効かどうかをテストします。
+また、CD プロセスは、テストから実稼働まで、組織の環境を通じてコードの変更を自動的に展開します。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Releasing new software versions can be a labor-intensive and error-prone process.
+It is also often something that organizations will only want to do infrequently to avoid production incidents
+and reduce the number of time engineers need to be available outside of regular business hours.
+Traditional software deployment models leave organizations in a vicious cycle
+where the process of releasing software fails to meet organizational needs around both stability and feature velocity.</source>
+<target xml:lang="ja" state="translated">新しいソフトウェア バージョンのリリースは、手間がかかり、エラーが発生しやすいプロセスになる可能性があります。
+また、本番環境でのインシデントを回避するために組織が頻繁に実行したくないことでもあります。
+また、通常の営業時間外にエンジニアが対応する必要がある時間を削減します。
+従来のソフトウェア導入モデルでは、組織は悪循環に陥ります
+ソフトウェアをリリースするプロセスが、安定性と機能速度の両方に関する組織のニーズを満たしていない場合。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">By automating the release cycle and forcing organizations to release to production more frequently,
+CD does what CI did for development teams for operations teams.
+Specifically, it forces operations teams to automate the painful and error-prone portions of production deployments, reducing overall risk.
+It also makes organizations better at accepting and adapting to production changes, which leads to higher stability.</source>
+<target xml:lang="ja" state="translated">リリース サイクルを自動化し、組織に本番環境へのリリースをより頻繁に強制することにより、
+CD は、CI が運用チームの開発チームに対して行ったことを行います。
+具体的には、運用チームは、本番環境の展開で面倒でエラーが発生しやすい部分を自動化することを余儀なくされ、全体的なリスクが軽減されます。
+また、組織が本番環境の変更を受け入れて適応できるようになり、安定性が向上します。</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Related terms</source>
+<target xml:lang="ja" state="translated">関連用語</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Continuous Integration<x id="2"/></source>
+<target xml:lang="ja" state="translated"><x id="1"/>継続的な統合<x id="2"/></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Continuous Delivery<x id="2"/></source>
+<target xml:lang="ja" state="translated"><x id="1"/>継続的な配信<x id="2"/></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

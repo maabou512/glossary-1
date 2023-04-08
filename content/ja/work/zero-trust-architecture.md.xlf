@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/zero-trust-architecture.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Zero trust architecture prescribes to an approach to the design and implementation of IT systems
+where trust is completely removed.
+The core principle being "never trust, always verify", devices or systems themselves,
+whilst communicating to other components of a system, always verify themselves before doing so.
+In many networks today, within the corporate network, systems and devices inside may freely communicate with each other
+as they are within the trusted boundary of the corporate network perimeter.
+Zero trust architecture takes the opposite approach where although inside the network perimeter,
+components within the system first have to pass verification before any communication is made.</source>
+<target xml:lang="ja" state="translated">ゼロトラスト アーキテクチャは、IT システムの設計と実装へのアプローチを規定しています
+信頼が完全に取り除かれる場所。
+中核となる原則は、「決して信頼せず、常に検証する」ことであり、デバイスまたはシステム自体、
+システムの他のコンポーネントと通信している間は、そうする前に常に自分自身を確認してください。
+今日の多くのネットワークでは、企業ネットワーク内で、内部のシステムとデバイスが互いに自由に通信できます。
+企業ネットワーク境界の信頼できる境界内にあるためです。
+ゼロトラスト アーキテクチャは逆のアプローチをとります。
+システム内のコンポーネントは、通信が行われる前にまず検証に合格する必要があります。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">With the traditional trust based approach where systems and devices that exist within a corporate network perimeter,
+the assumption is that because there is trust, there is no problem.
+Zero trust architecture however, recognises that trust is a vulnerability.
+In the event where an attacker has gained access to a trusted device,
+depending on the level of trust and access that has been given to that device,
+the system is now vulnerable to attack
+as the attacker is within the "trusted" network perimeter and is able to move laterally throughout the system.
+In a zero trust architecture, trust is removed, therefore reducing the attack surface
+as an attacker is now forced to verify before going any further throughout the system.</source>
+<target xml:lang="ja" state="translated">従来の信頼ベースのアプローチでは、システムとデバイスが企業ネットワーク境界内に存在し、
+信頼があるから問題ないという前提です。
+しかし、ゼロ トラスト アーキテクチャは、信頼が脆弱性であることを認識しています。
+攻撃者が信頼できるデバイスにアクセスした場合、
+そのデバイスに与えられた信頼とアクセスのレベルに応じて、
+システムは現在、攻撃に対して脆弱です
+攻撃者は「信頼できる」ネットワーク境界内にいて、システム全体を横方向に移動できるためです。
+ゼロトラスト アーキテクチャでは、信頼が取り除かれるため、攻撃対象領域が減少します。
+攻撃者は、システム全体をさらに進む前に確認を余儀なくされるためです。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Adopting a zero trust architecture brings the principal benefit of increased security
+with a reduction in the attack surface.
+Removing trust from your corporate system now increases the number and strength of security gates
+that an attacker has to go through to gain access to other areas of the system.</source>
+<target xml:lang="ja" state="translated">ゼロトラスト アーキテクチャを採用すると、セキュリティが強化されるという主な利点が得られます
+攻撃面が減少します。
+企業システムから信頼を取り除くと、セキュリティ ゲートの数と強度が増加します
+攻撃者は、システムの他の領域にアクセスするために通過する必要があります。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

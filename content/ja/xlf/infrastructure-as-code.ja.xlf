@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/infrastructure-as-code.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Infrastructure as code is the practice of storing the definition of infrastructure as one or more files.
+This replaces the traditional model where infrastructure as a service is provisioned manually,
+usually through shell scripts or other configuration tools.</source>
+<target xml:lang="ja" state="translated">Infrastructure as Code は、インフラストラクチャの定義を 1 つ以上のファイルとして保存する方法です。
+これは、Infrastructure as a Service が手動でプロビジョニングされる従来のモデルに取って代わります。
+通常は、シェル スクリプトまたはその他の構成ツールを使用します。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Building applications in a cloud native way requires infrastructure to be disposable and reproducible.
+It also needs to <x id="1"/>scale<x id="2"/> on-demand in an automated and repeatable way, potentially without human intervention.
+Manual provisioning cannot meet the responsiveness and scale requirements of <x id="3"/>cloud native applications<x id="4"/>.
+Manual infrastructure changes are not reproducible, quickly run into scale limits, and introduces misconfiguration errors.</source>
+<target xml:lang="ja" state="translated">アプリケーションをクラウド ネイティブな方法で構築するには、インフラストラクチャが使い捨てで再現可能である必要があります。
+また、人間の介入なしで、自動化された繰り返し可能な方法でオンデマンドで<x id="1"/>スケーリング<x id="2"/>する必要もあります。
+手動プロビジョニングでは、<x id="3"/>クラウド ネイティブ アプリケーション<x id="4"/>の応答性と規模の要件を満たすことができません。
+手動によるインフラストラクチャの変更は再現性がなく、すぐにスケールの制限に達し、構成ミスのエラーが発生します。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">By representing the data center resources such as servers, load balancers, and subnets as code,
+it allows infrastructure teams to have a single source of truth for all configurations and
+also allows them to manage their data center in a <x id="1"/>CI<x id="2"/>/<x id="3"/>CD<x id="4"/> pipeline,
+implementing version control and deployment strategies.</source>
+<target xml:lang="ja" state="translated">サーバー、ロードバランサー、サブネットなどのデータセンターのリソースをコードとして表現することで、
+これにより、インフラストラクチャ チームは、すべての構成について信頼できる単一のソースを持つことができ、
+<x id="1"/>CI<x id="2"/>/<x id="3"/>CD<x id="4"/> パイプラインでデータセンターを管理することもできます、
+バージョン管理と展開戦略の実装。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

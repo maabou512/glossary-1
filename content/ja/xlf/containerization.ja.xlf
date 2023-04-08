@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/containerization.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Containerization is the process of bundling an application and its dependencies into a <x id="1"/>container image<x id="2"/>.
+The container build process requires adherence to the <x id="3"/>Open Container Initiative<x id="4"/> (OCI) standard.
+As long as the output is a container image that adheres to this standard, which containerization tool is used doesn't matter.</source>
+<target xml:lang="ja" state="translated">コンテナ化とは、アプリケーションとその依存関係を <x id="1"/>コンテナ イメージ<x id="2"/>にまとめるプロセスです。
+コンテナのビルド プロセスでは、<x id="3"/>Open Container Initiative<x id="4"/> (OCI) 標準に準拠する必要があります。
+出力がこの標準に準拠したコンテナー イメージである限り、どのコンテナー化ツールを使用してもかまいません。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Before containers became prevalent, organizations relied on virtual machines (VMs) to
+orchestrate multiple applications on a single <x id="1"/>bare-metal machine<x id="2"/>.
+VMs are significantly larger than containers and require a hypervisor to run.
+Due to the storage, backup, and transfer of these larger VM templates, creating the VM templates is also slow.
+Additionally, VMs can suffer from configuration drift which violates the principle of <x id="3"/>immutability<x id="4"/>.</source>
+<target xml:lang="ja" state="translated">コンテナが普及する前は、組織は仮想マシン (VM) に依存して
+単一の<x id="1"/>ベアメタル マシン<x id="2"/>で複数のアプリケーションを調整します。
+VM はコンテナーよりもかなり大きく、ハイパーバイザーを実行する必要があります。
+これらの大きな VM テンプレートのストレージ、バックアップ、および転送が原因で、VM テンプレートの作成も遅くなります。
+さらに、VM は、<x id="3"/>不変性<x id="4"/>の原則に違反する構成のドリフトに悩まされる可能性があります。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Container images are lightweight (unlike traditional VMs) and
+the containerization process requires a file with a list of dependencies.
+This file can be version controlled and the build process automated,
+allowing an organization to focus on other priorities
+while the automated processes take care of the build.
+A container image is stored by a unique identifier
+that is tied to its exact content and configuration.
+As containers are scheduled and rescheduled,
+they are always reset to their initial state which eliminates configuration drift.</source>
+<target xml:lang="ja" state="translated">コンテナ イメージは (従来の VM とは異なり) 軽量であり、
+コンテナー化プロセスには、依存関係のリストを含むファイルが必要です。
+このファイルはバージョン管理が可能で、ビルド プロセスは自動化されています。
+組織が他の優先事項に集中できるようにする
+自動化されたプロセスがビルドを処理します。
+コンテナ イメージは一意の識別子で保存されます
+これは、その正確なコンテンツと構成に関連付けられています。
+コンテナがスケジュールされ、再スケジュールされると、
+それらは常に初期状態にリセットされるため、構成のドリフトがなくなります。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

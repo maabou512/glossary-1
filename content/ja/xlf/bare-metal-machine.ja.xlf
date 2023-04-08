@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/bare-metal-machine.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Bare metal refers to a physical computer, more specifically a server, that has one, and only one, operating system.
+The distinction is important in modern computing because many, if not most, servers are <x id="1"/>virtual machines<x id="2"/>.
+A physical server is typically a fairly large computer with powerful hardware built-in.
+Installing an operating system and running applications directly on that physical hardware,
+without <x id="3"/>virtualization<x id="4"/>, is referred to as running on “bare metal.”</source>
+<target xml:lang="ja" state="translated">ベア メタルとは、オペレーティング システムが 1 つしかない物理的なコンピューター、より具体的にはサーバーを指します。
+ほとんどではないにしても多くのサーバーが<x id="1"/>仮想マシン<x id="2"/>であるため、この区別は現代のコンピューティングでは重要です。
+通常、物理サーバーは、強力なハードウェアが組み込まれたかなり大きなコンピューターです。
+その物理ハードウェアに直接オペレーティング システムをインストールし、アプリケーションを実行します。
+<x id="3"/>仮想化<x id="4"/>なしの場合、「ベア メタル」で実行されていると呼ばれます。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Pairing one operating system with one physical computer is the original pattern of computing.
+All the resources of the physical computer are available directly to the operating system and with no virtualization layer present,
+there is no artificial delay in translating operating system instructions to hardware.</source>
+<target xml:lang="ja" state="translated">1 つのオペレーティング システムと 1 台の物理コンピューターを組み合わせることは、コンピューティングの元のパターンです。
+物理コンピューターのすべてのリソースは、オペレーティング システムで直接利用でき、仮想化レイヤーは存在しません。
+オペレーティング システムの命令をハードウェアに変換する際の人為的な遅延はありません。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">By dedicating all compute resources of a computer to a single operating system,
+you potentially provide the best possible performance to the operating system.
+If you need to run a workload that must have extremely fast access to hardware resources,
+bare metal may be the right solution.</source>
+<target xml:lang="ja" state="translated">コンピュータのすべてのコンピューティング リソースを単一のオペレーティング システム専用にすることにより、
+オペレーティング システムに最高のパフォーマンスを提供する可能性があります。
+ハードウェア リソースへの非常に高速なアクセスが必要なワークロードを実行する必要がある場合は、
+ベアメタルが適切なソリューションかもしれません。</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">In the context of <x id="1"/>cloud native apps<x id="2"/>,
+we generally think of performance in terms of <x id="3"/>scaling<x id="4"/> to a large number of concurrent events,
+which can be handled by <x id="5"/>horizontal scaling<x id="6"/> (adding more machines to your resource pool).
+But some workloads may require <x id="7"/>vertical scaling<x id="8"/> (adding more power to an existing physical machine)
+and/or an extremely fast physical hardware response in which case bare metal is better suited.
+Bare metal also allows you to tune the physical hardware and possibly even hardware drivers to help accomplish your task.</source>
+<target xml:lang="ja" state="translated"><x id="1"/>クラウド ネイティブ アプリ<x id="2"/>のコンテキストでは、
+私たちは一般的に、多数の同時イベントへの<x id="3"/>スケーリング<x id="4"/>という観点からパフォーマンスを考えています。
+これは、<x id="5"/>水平スケーリング<x id="6"/> (リソース プールにマシンを追加する) によって処理できます。
+ただし、一部のワークロードでは、<x id="7"/>垂直方向のスケーリング<x id="8"/> (既存の物理マシンにさらにパワーを追加する) が必要になる場合があります。
+および/または非常に高速な物理ハードウェアの応答が必要な場合は、ベア メタルの方が適しています。
+また、ベア メタルを使用すると、物理ハードウェアや場合によってはハードウェア ドライバーを調整して、タスクの遂行に役立てることもできます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

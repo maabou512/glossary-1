@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/service-proxy.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A service proxy intercepts traffic to or from a given <x id="1"/>service<x id="2"/>,
+applies some logic to it, then forwards that traffic to another service.
+It essentially acts as a “go-between” that collects information about network traffic and/or applies rules to it.</source>
+<target xml:lang="ja" state="translated">サービス プロキシは、特定の <x id="1"/>サービス<x id="2"/> との間のトラフィックをインターセプトします。
+それにいくつかのロジックを適用し、そのトラフィックを別のサービスに転送します。
+基本的に、ネットワーク トラフィックに関する情報を収集したり、ルールを適用したりする「仲介者」として機能します。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">To keep track of service to service communication (aka network traffic) and
+potentially transform or redirect it, we need to collect data.
+Traditionally, the code enabling data collection and network traffic management was embedded within each application.</source>
+<target xml:lang="ja" state="translated">サービス間の通信 (別名ネットワーク トラフィック) を追跡し、
+変換またはリダイレクトする可能性があるため、データを収集する必要があります。
+従来、データ収集とネットワーク トラフィック管理を可能にするコードは、各アプリケーションに埋め込まれていました。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">A service proxy allows us to “externalize” this functionality.
+No longer does it need to live within the apps.
+Instead, it’s now embedded into the platform layer (where your apps run).</source>
+<target xml:lang="ja" state="translated">サービス プロキシを使用すると、この機能を「外部化」できます。
+アプリ内に存在する必要はもうありません。
+代わりに、プラットフォーム レイヤー (アプリが実行される場所) に組み込まれるようになりました。</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Acting as gatekeepers between services, proxies provide insight into what type of communication is happening.
+Based on their insight, they determine where to send a particular request or even deny it entirely.</source>
+<target xml:lang="ja" state="translated">サービス間のゲートキーパーとして機能するプロキシは、発生している通信の種類に関する洞察を提供します。
+洞察に基づいて、特定の要求をどこに送信するかを決定したり、完全に拒否したりすることさえあります。</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">Proxies gather critical data, manage routing (spreading traffic evenly among services or rerouting if some services break down),
+encrypt connections, and cache content (reducing resource consumption).</source>
+<target xml:lang="ja" state="translated">プロキシは、重要なデータを収集し、ルーティングを管理します (サービス間でトラフィックを均等に分散するか、一部のサービスが故障した場合は再ルーティングします)。
+接続を暗号化し、コンテンツをキャッシュします (リソース消費を削減します)。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/horizontal-scaling.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Horizontal scaling is a technique where a system's capacity is increased by adding more <x id="1"/>nodes<x id="2"/>
+versus adding more compute resources to individual nodes (the latter being known as <x id="3"/>vertical scaling<x id="4"/>).
+Let's say, we have a system of 4GB RAM and want to increase its capacity to 16GB RAM,
+scaling it horizontally means doing so by adding 4 x 4GB RAM rather than switching to a 16GB RAM system.</source>
+<target xml:lang="ja" state="translated">水平スケーリングは、<x id="1"/>ノード<x id="2"/>を追加してシステムの容量を増やす手法です。
+個々のノードにコンピューティング リソースを追加するのではなく (後者は <x id="3"/>垂直スケーリング<x id="4"/>と呼ばれます)。
+たとえば、4GB RAM のシステムがあり、その容量を 16GB RAM に増やしたいとします。
+水平方向にスケーリングするとは、16GB RAM システムに切り替えるのではなく、4 GB RAM を 4 つ追加することを意味します。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">This approach enhances the performance of an application by adding new instances, or <x id="1"/>nodes<x id="2"/>,
+to better distribute the workload.
+In simple words, it aims to decrease the server's load
+rather than expanding capacity of the individual server.</source>
+<target xml:lang="ja" state="translated">このアプローチは、新しいインスタンスまたは<x id="1"/>ノード<x id="2"/>を追加することで、アプリケーションのパフォーマンスを向上させます。
+ワークロードをより適切に分散します。
+簡単に言えば、サーバーの負荷を減らすことを目的としています
+個々のサーバーの容量を拡張するのではなく、</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">As demand for an application grows beyond the current capacity of that application instance,
+we need to find a way to <x id="1"/>scale<x id="2"/> (add capacity to) the system.
+We can either add more nodes to the system (horizontal scaling)
+or more compute resources to existing nodes (vertical scaling).</source>
+<target xml:lang="ja" state="translated">アプリケーションの需要がそのアプリケーション インスタンスの現在の容量を超えると、
+システムを<x id="1"/>スケーリング<x id="2"/> (容量を追加) する方法を見つける必要があります。
+システムにノードを追加することができます (水平スケーリング)
+以上のコンピューティング リソースを既存のノードに追加します (垂直スケーリング)。</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Horizontal scaling allows applications to scale to whatever limits the underlying cluster provides.
+By adding more instances to the system, the app can process a greater number of requests.
+If a single node can handle 1,000 requests per second,
+each additional node should increase the total number of requests by around 1,000 requests per second.
+This allows the application to do more work concurrently
+without needing to increase the capacity of any node in particular.</source>
+<target xml:lang="ja" state="translated">水平スケーリングにより、基盤となるクラスターが提供する制限に合わせてアプリケーションをスケーリングできます。
+システムにインスタンスを追加することで、アプリはより多くのリクエストを処理できます。
+1 つのノードが 1 秒あたり 1,000 のリクエストを処理できる場合、
+ノードを追加するたびに、リクエストの総数が 1 秒あたり約 1,000 リクエストずつ増加するはずです。
+これにより、アプリケーションはより多くの作業を同時に行うことができます
+特にノードの容量を増やす必要はありません。</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">Related terms</source>
+<target xml:lang="ja" state="translated">関連用語</target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Vertical Scaling<x id="2"/></source>
+<target xml:lang="ja" state="translated"><x id="1"/>垂直スケーリング<x id="2"/></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Auto Scaling<x id="2"/></source>
+<target xml:lang="ja" state="translated"><x id="1"/>自動スケーリング<x id="2"/></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

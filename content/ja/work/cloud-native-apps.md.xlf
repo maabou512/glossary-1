@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/cloud-native-apps.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Cloud native applications are specifically designed to take advantage of innovations in <x id="1"/>cloud computing<x id="2"/>.
+These applications integrate easily with their respective cloud architectures,
+taking advantage of the cloud’s resources and <x id="3"/>scaling<x id="4"/> capabilities.
+It also refers to applications that take advantage of innovations in infrastructure driven by cloud computing.
+Cloud native applications today include apps that run in a cloud provider’s datacenter and on cloud native platforms on-premise.</source>
+<target xml:lang="ja" state="translated">クラウド ネイティブ アプリケーションは、<x id="1"/>クラウド コンピューティング<x id="2"/>のイノベーションを活用するように特別に設計されています。
+これらのアプリケーションは、それぞれのクラウド アーキテクチャと簡単に統合できます。
+クラウドのリソースと<x id="3"/>スケーリング<x id="4"/>機能を活用します。
+また、クラウド コンピューティングによって推進されるインフラストラクチャのイノベーションを活用するアプリケーションも指します。
+今日のクラウド ネイティブ アプリケーションには、クラウド プロバイダーのデータセンターとオンプレミスのクラウド ネイティブ プラットフォームで実行されるアプリが含まれます。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Traditionally, on-premise environments provided compute resources in a fairly bespoke way.
+Each datacenter had services that <x id="1"/>tightly coupled<x id="2"/> applications to specific environments,
+often relying heavily on manual provisioning for infrastructure, like <x id="3"/>virtual machines<x id="4"/> and services.
+This, in turn, constrained developers and their applications to that specific datacenter.
+Applications that weren't designed for the cloud couldn't take advantage of a cloud environment’s resiliency and scaling capabilities.
+For example, apps that require manual intervention to start correctly cannot scale automatically,
+nor can they be automatically restarted in the event of a failure.</source>
+<target xml:lang="ja" state="translated">従来、オンプレミス環境はかなりオーダーメイドの方法でコンピューティング リソースを提供していました。
+各データセンターには、アプリケーションを特定の環境に<x id="1"/>密結合<x id="2"/>するサービスがあり、
+多くの場合、<x id="3"/>仮想マシン<x id="4"/>やサービスなどのインフラストラクチャの手動プロビジョニングに大きく依存しています。
+これにより、開発者とそのアプリケーションはその特定のデータセンターに限定されました。
+クラウド向けに設計されていないアプリケーションは、クラウド環境の回復力とスケーリング機能を利用できませんでした。
+たとえば、正しく起動するために手動の介入が必要なアプリは、自動的にスケーリングできません。
+また、障害が発生した場合に自動的に再起動することもできません。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">While there is no “one size fits all” path to cloud native applications, they do have some commonalities.
+Cloud native apps are resilient, manageable, and aided by the suite of cloud services that accompany them.
+The various cloud services enable a high degree of <x id="1"/>observability<x id="2"/>,
+enabling users to detect and address issues before they escalate.
+Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.</source>
+<target xml:lang="ja" state="translated">クラウド ネイティブ アプリケーションへの「万能」な道筋はありませんが、いくつかの共通点があります。
+クラウド ネイティブ アプリは回復力があり、管理しやすく、付随する一連のクラウド サービスによって支援されます。
+さまざまなクラウド サービスにより、高度な<x id="1"/>オブザーバビリティ<x id="2"/>が可能になります。
+ユーザーが問題をエスカレーションする前に検出して対処できるようにします。
+堅牢な自動化と組み合わせることで、エンジニアは最小限の労力で、影響の大きい変更を頻繁かつ予測どおりに行うことができます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

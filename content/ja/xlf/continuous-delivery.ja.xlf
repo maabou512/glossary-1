@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/continuous-delivery.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Continuous delivery, often abbreviated as  CD, is a set of practices
+in which code changes are automatically deployed into an acceptance environment
+(or, in the case of continuous deployment, into production).
+CD crucially includes procedures to ensure that software is adequately tested
+before deployment and provides a way to rollback changes if deemed necessary.
+Continuous integration (CI) is the first step towards continuous delivery
+(i.e., changes have to merge cleanly before being tested and deployed).</source>
+<target xml:lang="ja" state="translated">CD と略されることが多い継続的デリバリーは、一連のプラクティスです。
+コードの変更が受け入れ環境に自動的にデプロイされる
+（または、継続的な展開の場合は本番環境へ）。
+CD には、ソフトウェアが適切にテストされていることを確認するための手順が含まれています。
+展開の前に、必要に応じて変更をロールバックする方法を提供します。
+継続的インテグレーション (CI) は継続的デリバリーへの第一歩です
+(つまり、テストしてデプロイする前に、変更を完全にマージする必要があります)。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Deploying <x id="1"/>reliable<x id="2"/> updates becomes a problem at scale.
+Ideally, we'd deploy more frequently to deliver better value to end-users.
+However, doing it manually translates into high transaction costs for every change.
+Historically, to avoid these costs, organizations have released less frequently,
+deploying more changes at once and increasing the risk that something goes wrong.</source>
+<target xml:lang="ja" state="translated"><x id="1"/>信頼できる<x id="2"/>更新プログラムを展開することは、大規模な問題になります。
+エンドユーザーにより良い価値を提供するために、より頻繁に展開することが理想的です。
+ただし、手動で行うと、変更のたびにトランザクション コストが高くなります。
+歴史的に、これらのコストを回避するために、組織はリリースの頻度を減らし、
+一度により多くの変更を展開すると、何か問題が発生するリスクが高まります。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">CD strategies create a fully automated path to production
+that tests and deploys the software using various deployment strategies
+such as <x id="1"/>canary<x id="2"/> or <x id="3"/>blue-green<x id="4"/> releases.
+This allows developers to deploy code frequently,  giving them peace of mind that the new revision has been tested.
+Typically, trunk-based development is used in CD strategies as opposed to feature branching or pull requests.</source>
+<target xml:lang="ja" state="translated">CD 戦略は、本番環境への完全に自動化されたパスを作成します
+さまざまな展開戦略を使用してソフトウェアをテストおよび展開する
+<x id="1"/>canary<x id="2"/> や <x id="3"/>blue-green<x id="4"/> リリースなど。
+これにより、開発者はコードを頻繁にデプロイできるため、新しいリビジョンがテスト済みであるという安心感が得られます。
+通常、トランクベースの開発は、フィーチャー ブランチやプル リクエストとは対照的に、CD 戦略で使用されます。</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Related terms</source>
+<target xml:lang="ja" state="translated">関連用語</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Continuous Integration<x id="2"/></source>
+<target xml:lang="ja" state="translated"><x id="1"/>継続的な統合<x id="2"/></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Continuous Deployment<x id="2"/></source>
+<target xml:lang="ja" state="translated"><x id="1"/>継続的な導入<x id="2"/></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/container-orchestration.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Container<x id="2"/> orchestration refers to managing and automating the lifecycle of containerized applications in dynamic environments.
+It's executed through a container orchestrator (in most cases, <x id="3"/>Kubernetes<x id="4"/>), which enables deployments, (auto)scaling, auto-healing, and monitoring.
+Orchestration is a metaphor:
+The orchestration tool conducts containers like a music conductor, ensuring every container (or musician) does what it should.</source>
+<target xml:lang="ja" state="translated"><x id="1"/>コンテナ<x id="2"/> オーケストレーションとは、動的環境でコンテナ化されたアプリケーションのライフサイクルを管理および自動化することです。
+コンテナー オーケストレーター (ほとんどの場合、<x id="3"/>Kubernetes<x id="4"/>) を介して実行され、デプロイ、(自動) スケーリング、自動修復、および監視が可能になります。
+オーケストレーションは比喩です。
+オーケストレーション ツールは、コンテナを音楽の指揮者のように指揮し、すべてのコンテナ (またはミュージシャン) が本来あるべきことを行うようにします。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Managing <x id="1"/>microservices<x id="2"/>, security, and network communication at scale — and <x id="3"/>distributed systems<x id="4"/> in general — is hard, if not impossible, to manage manually.
+Container orchestration allows users to automate all these management tasks.</source>
+<target xml:lang="ja" state="translated"><x id="1"/>マイクロサービス<x id="2"/>、セキュリティ、ネットワーク通信を大規模に管理し、<x id="3"/>分散システム<x id="4 "/> 一般に — 手動で管理するのは、不可能ではないにしても困難です。
+コンテナ オーケストレーションにより、ユーザーはこれらすべての管理タスクを自動化できます。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Container orchestration tools allow users to determine a system's state.
+First, they declare how it should look like (e.g., x containers, y pods, etc.).
+The orchestration tool will then automatically monitor the infrastructure and correct it if its state deviates from the declared one (e.g., spin up a new container if one crashes).
+This automation simplifies many of the engineering teams' otherwise highly manual and complex operational tasks, including provisioning, deployment, scaling (up and down), networking, load balancing, and other activities.</source>
+<target xml:lang="ja" state="translated">コンテナ オーケストレーション ツールを使用すると、ユーザーはシステムの状態を判断できます。
+まず、どのように見えるかを宣言します (例: x コンテナー、y ポッドなど)。
+オーケストレーション ツールは、インフラストラクチャを自動的に監視し、その状態が宣言されたものから逸脱している場合はそれを修正します (たとえば、クラッシュした場合に新しいコンテナーをスピンアップします)。
+この自動化により、プロビジョニング、展開、スケーリング (アップとダウン)、ネットワーキング、負荷分散、およびその他のアクティビティを含む、エンジニアリング チームの手作業が多く、複雑な運用タスクの多くが簡素化されます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

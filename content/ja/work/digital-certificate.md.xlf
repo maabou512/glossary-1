@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/digital-certificate.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A (digital) certificate — also often referred to as a public key certificate, or SSL certificate — is a digital document used to help secure communications over the network.
+Certificates allow us to know that the particular entity we're communicating with is who they say they are.
+They also allow us to ensure that our communications are private by encrypting the data we send and receive.</source>
+<target xml:lang="ja" state="translated">（デジタル）証明書は、公開鍵証明書または SSL 証明書とも呼ばれ、ネットワーク上の通信を保護するために使用されるデジタル ドキュメントです。
+証明書により、通信している特定のエンティティが本人であることを知ることができます。
+また、送受信するデータを暗号化することで、通信のプライバシーを確保することもできます。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">When devices communicate over a network there is no inherent guarantee that a particular device is who it says it is.
+Additionally, we can't guarantee that the traffic between any two devices won't be intercepted by a third party.
+Consequently, any communication can potentially be intercepted, compromising sensitive information like usernames and passwords.</source>
+<target xml:lang="ja" state="translated">デバイスがネットワークを介して通信する場合、特定のデバイスが実際のデバイスであるという固有の保証はありません。
+さらに、2 つのデバイス間のトラフィックが第三者によって傍受されないことを保証することはできません。
+その結果、通信が傍受される可能性があり、ユーザー名やパスワードなどの機密情報が危険にさらされる可能性があります。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Modern email clients that utilize certificates can notify you if a sender's identity is correct, as will web browsers (notice the little lock in front of the address bar of your web browser).
+On the other side, certificates can be used to encrypt communication between entities on the internet.
+They provide an encryption technique that makes it nearly impossible, for someone who intercepts the communication, to actually read the data.</source>
+<target xml:lang="ja" state="translated">証明書を使用する最新の電子メール クライアントは、送信者の身元が正しい場合に通知することができます。これは、Web ブラウザーと同様です (Web ブラウザーのアドレス バーの前にある小さなロックに注意してください)。
+一方、証明書を使用して、インターネット上のエンティティ間の通信を暗号化できます。
+それらは、通信を傍受した誰かが実際にデータを読み取ることをほぼ不可能にする暗号化技術を提供します。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/software-as-a-service.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Software as a service (SaaS) allows users to connect to and use cloud-based services over the Internet.
+Common examples are email, calendaring, and office tools (such as Gmail, Amazon Web Services, GitHub, Slack).
+SaaS provides complete software solutions on a pay-as-you-go basis.
+All operations and maintenance tasks, and application data, are handled by the service provider.</source>
+<target xml:lang="ja" state="translated">サービスとしてのソフトウェア (SaaS) を使用すると、ユーザーはインターネット経由でクラウドベースのサービスに接続して使用できます。
+一般的な例は、電子メール、カレンダー、およびオフィス ツール (Gmail、Amazon Web Services、GitHub、Slack など) です。
+SaaS は、従量課金制で完全なソフトウェア ソリューションを提供します。
+すべての運用と保守タスク、およびアプリケーション データは、サービス プロバイダーによって処理されます。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Traditionally, business software is installed on individual computers, requiring an admin to maintain and update.
+As an example: An organization may use on-premise software for customer relationship management (CRM).
+This software needs to be purchased, installed, secured, maintained, and regularly upgraded
+by the internal IT department, placing a burden on the IT team.
+The up front cost associated with licenses, installation, and potentially additional hardware can be prohibitive.
+It can also be difficult to respond to demand and <x id="1"/>scale<x id="2"/> up and down
+as needed quickly in response to growth or change.</source>
+<target xml:lang="ja" state="translated">従来、ビジネス ソフトウェアは個々のコンピュータにインストールされ、管理者が保守と更新を行う必要がありました。
+例: 組織は顧客関係管理 (CRM) にオンプレミス ソフトウェアを使用する場合があります。
+このソフトウェアは、購入、インストール、保護、保守、および定期的なアップグレードが必要です
+社内の IT 部門によって、IT チームに負担がかかります。
+ライセンス、インストール、および場合によっては追加のハードウェアに関連する初期費用は、非常に高額になる可能性があります。
+需要に応えて<x id="1"/>スケール<x id="2"/>するのも難しい場合があります
+成長や変化に応じて、必要に応じて迅速に。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">SaaS applications work without requiring any particular effort from your internal IT organization.
+They are installed, maintained, upgraded, and secured by the vendor.
+Issues of scale, availability, and capacity are handled by the service provider, and,
+with a pay-as-you-go model, they can be an affordable way for organizations to leverage enterprise applications.</source>
+<target xml:lang="ja" state="translated">SaaS アプリケーションは、社内の IT 組織による特別な努力を必要とせずに機能します。
+それらは、ベンダーによってインストール、保守、アップグレード、および保護されます。
+規模、可用性、およびキャパシティの問題は、サービス プロバイダーによって処理されます。
+従量課金制モデルにより、組織がエンタープライズ アプリケーションを活用するための手頃な方法となります。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

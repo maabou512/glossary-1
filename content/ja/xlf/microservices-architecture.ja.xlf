@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/microservices-architecture.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A microservices architecture is an architectural approach that breaks applications into individual independent (micro)<x id="1"/>services<x id="2"/>, with each service focused on a specific functionality.
+These services work together closely, appearing to the end user as a single entity.
+Take Netflix as an example.
+Its interface allows you to access, search, and preview videos.
+These capabilities are likely powered by smaller services that each handle one functionality, e.g., authentication, search, and running previews in your browser.</source>
+<target xml:lang="ja" state="translated">マイクロサービス アーキテクチャは、アプリケーションを個々の独立した (マイクロ)<x id="1"/>サービス<x id="2"/>に分割し、各サービスが特定の機能に焦点を当てたアーキテクチャ アプローチです。
+これらのサービスは緊密に連携し、エンド ユーザーには単一のエンティティとして表示されます。
+例としてNetflixを取り上げます。
+そのインターフェイスを使用すると、ビデオにアクセス、検索、およびプレビューできます。
+これらの機能は、認証、検索、ブラウザーでのプレビューの実行など、それぞれが 1 つの機能を処理する小規模なサービスによって強化されている可能性があります。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">This architectural approach allows developers to push out new features or update functionality much faster than if they were all tightly coupled, such as in a <x id="1"/>monolithic application<x id="2"/> (more to that below).</source>
+<target xml:lang="ja" state="translated">このアーキテクチャ アプローチにより、開発者は、<x id="1"/>モノリシック アプリケーション<x id="2"/>のように、すべてが密結合されている場合よりもはるかに迅速に新機能をプッシュしたり、機能を更新したりできます。 （詳細は以下）。</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Applications are made up of different parts, each responsible for a specific capability.
+Demand for a particular functionality will not necessarily increase or decrease with demand for other app parts.
+Going back to our Netflix example.
+Let's say that after a big marketing campaign, Netflix experiences a big spike in signups, but streaming has remained more or less stable in the early hours of the day.
+The surge in signups demands more signup capacity.
+Traditionally (monolithic approach), the entire app would have to be <x id="1"/>scaled<x id="2"/> to accommodate the increase — a very inefficient use of resources.</source>
+<target xml:lang="ja" state="translated">アプリケーションはさまざまな部分で構成されており、それぞれが特定の機能を担当しています。
+特定の機能に対する需要は、他のアプリ パーツに対する需要によって必ずしも増減するとは限りません。
+Netflix の例に戻ります。
+大規模なマーケティング キャンペーンの後、Netflix のサインアップ数が急増しましたが、1 日の早い時間帯のストリーミングは多かれ少なかれ安定しているとしましょう。
+サインアップの急増は、より多くのサインアップ容量を必要とします。
+従来 (モノリシックなアプローチ) では、増加に対応するためにアプリ全体を<x id="1"/>スケーリング<x id="2"/>する必要があり、リソースの使用効率が非常に低かったのです。</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Monolithic architectures also make it easy for developers to succumb to design pitfalls.
+Because all the code is in one place, it is easier to make that code <x id="1"/>tightly coupled<x id="2"/> and harder to enforce the principle of separation of concerns.
+Monoliths also often require developers to understand the entire codebase before deploying any chances.
+Microservices architecture is a response to these challenges.</source>
+<target xml:lang="ja" state="translated">また、モノリシック アーキテクチャでは、開発者が設計上の落とし穴に陥りやすくなります。
+すべてのコードが 1 か所にあるため、そのコードを<x id="1"/>密結合<x id="2"/>にするのは簡単ですが、関心の分離の原則を適用するのは難しくなります。
+また、モノリスをデプロイする前に、開発者がコードベース全体を理解する必要があることもよくあります。
+マイクロサービス アーキテクチャは、これらの課題への対応です。</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">Separating functionality into different microservices makes them easier to deploy, update, and scale independently.
+It also allows different teams to work simultaneously on a small part of a bigger application without inadvertently negatively impacting the rest of the app.
+While a microservices architecture solves many problems, it also creates operational overhead — the things you need to deploy and keep track of increase by order of magnitude.
+Many <x id="1"/>cloud-native technologies<x id="2"/> aim to make microservices easier to deploy and manage.</source>
+<target xml:lang="ja" state="translated">機能をさまざまなマイクロサービスに分離することで、個別に展開、更新、拡張することが容易になります。
+また、アプリの残りの部分に不注意に悪影響を与えることなく、異なるチームが大きなアプリケーションの小さな部分で同時に作業することもできます。
+マイクロサービス アーキテクチャは多くの問題を解決しますが、運用上のオーバーヘッドも生み出します。これは、展開して追跡する必要があるものの桁違いの増加です。
+<x id="1"/>クラウド ネイティブ テクノロジー<x id="2"/>の多くは、マイクロサービスのデプロイと管理を容易にすることを目的としています。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

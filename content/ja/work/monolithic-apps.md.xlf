@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/monolithic-apps.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A monolithic application contains all functionality in a single deployable program.
+This is often the simplest and easiest place to start when making an application.
+However, once the application grows in complexity, monoliths can become hard to maintain.
+With more developers working on the same codebase,
+the likelihood of conflicting changes and the need for interpersonal communication between developers increases.</source>
+<target xml:lang="ja" state="translated">モノリシック アプリケーションには、展開可能な単一のプログラムにすべての機能が含まれています。
+これは、多くの場合、アプリケーションを作成するときに開始する最も簡単で簡単な場所です。
+ただし、アプリケーションが複雑になると、モノリスの保守が難しくなる可能性があります。
+同じコードベースで作業する開発者が増えると、
+競合する変更の可能性と、開発者間の対人コミュニケーションの必要性が高まります。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it Addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Devolving an application into <x id="1"/>microservices<x id="2"/> increases its operational overhead
+— there are more things to test, deploy, and keep running.
+Early in a product’s lifecycle, it may be advantageous to defer this complexity and build a monolithic application
+until the product is determined successful.</source>
+<target xml:lang="ja" state="translated">アプリケーションを<x id="1"/>マイクロサービス<x id="2"/>に発展させると、運用上のオーバーヘッドが増加します
+— テスト、展開、および実行を継続する必要があるものがさらにあります。
+製品のライフサイクルの早い段階で、この複雑さを延期してモノリシック アプリケーションを構築することが有利な場合があります。
+製品が成功したと判断されるまで。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it Helps</source>
+<target xml:lang="ja" state="translated">それがどのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">A well-designed monolith can uphold lean principles by being the simplest way to get an application up and running.
+When the business value of the monolithic application proves successful, it can be decomposed into microservices.
+Crafting a microservices-based app before it has proven valuable may be premature spending of engineering effort.
+If the application yields no value, that effort becomes wasted.</source>
+<target xml:lang="ja" state="translated">適切に設計されたモノリスは、アプリケーションを起動して実行するための最も簡単な方法であるため、無駄のない原則を維持できます。
+モノリシック アプリケーションのビジネス価値が成功したことが証明されたら、それをマイクロサービスに分解できます。
+価値が証明される前にマイクロサービスベースのアプリを作成することは、エンジニアリングの労力を時期尚早に費やすことになる可能性があります。
+アプリケーションが価値をもたらさない場合、その努力は無駄になります。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/continuous-integration.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Continuous integration, often abbreviated as CI, is the practice of integrating code changes as regularly as possible.
+CI is a prerequisite for <x id="1"/>continuous delivery<x id="2"/> (CD).
+Traditionally, the CI process begins when code changes are committed to a source control system (Git, Mercurial, or Subversion)
+and ends with a tested artifact ready to be consumed by a CD system.</source>
+<target xml:lang="ja" state="translated">CI と略されることが多い継続的インテグレーションは、コードの変更をできるだけ定期的に統合する方法です。
+CI は、<x id="1"/>継続的な配信<x id="2"/> (CD) の前提条件です。
+従来、CI プロセスは、コードの変更がソース管理システム (Git、Mercurial、または Subversion) にコミットされたときに開始されます。
+そして、CD システムですぐに使用できるテスト済みのアーティファクトで終了します。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Software systems are often large and complex, with numerous developers maintaining and updating them.
+Working in parallel on different parts of the system,
+these developers may make conflicting changes and inadvertently break each other’s work.
+Additionally, with multiple developers working on the same project,
+any everyday tasks such as testing and calculating code quality would need to be repeated by each developer, wasting time.</source>
+<target xml:lang="ja" state="translated">多くの場合、ソフトウェア システムは大規模で複雑であり、多くの開発者がそれらを維持および更新しています。
+システムのさまざまな部分で並行して作業し、
+これらの開発者は競合する変更を行い、うっかりお互いの作業を壊してしまう可能性があります。
+さらに、複数の開発者が同じプロジェクトに取り組んでいるため、
+テストやコード品質の計算などの日常的なタスクは、各開発者が繰り返す必要があり、時間を無駄にしていました。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">CI software automatically checks that code changes merge cleanly whenever a developer commits a change.
+It's a near-ubiquitous practice to use the CI server to run code quality checks, tests, and even deployments.
+As such, it becomes a concrete implementation of quality control within teams.
+CI allows software teams to turn every code commit into either a concrete failure or a viable release candidate.</source>
+<target xml:lang="ja" state="translated">CI ソフトウェアは、開発者が変更をコミットするたびに、コードの変更が正常にマージされていることを自動的にチェックします。
+CI サーバーを使用してコードの品質チェック、テスト、さらには展開を実行することは、ほぼどこにでもある方法です。
+そのため、チーム内での品質管理の具体的な実装になります。
+CI により、ソフトウェア チームはすべてのコード コミットを具体的な失敗または実行可能なリリース候補に変えることができます。</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Related terms</source>
+<target xml:lang="ja" state="translated">関連用語</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Continuous Delivery<x id="2"/></source>
+<target xml:lang="ja" state="translated"><x id="1"/>継続的な配信<x id="2"/></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en"><x id="1"/>Continuous Deployment<x id="2"/></source>
+<target xml:lang="ja" state="translated"><x id="1"/>継続的な導入<x id="2"/></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

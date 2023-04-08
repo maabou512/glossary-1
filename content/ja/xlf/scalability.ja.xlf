@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/scalability.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Scalability refers to how well a system can grow.
+That is increasing the ability to do whatever the system is supposed to do.
+For example, a <x id="1"/>Kubernetes<x id="2"/> <x id="3"/>cluster<x id="4"/> scales by
+increasing or reducing the number of <x id="5"/>containerized<x id="6"/> apps,
+but that scalability depends on several factors.
+How many <x id="7"/>nodes<x id="8"/> does it have, how many <x id="9"/>containers<x id="10"/> can each node handle,
+and how many records and operations can the control plane support?</source>
+<target xml:lang="ja" state="translated">スケーラビリティとは、システムがどれだけ成長できるかを指します。
+つまり、システムが行うべきことは何でも実行できるようになります。
+たとえば、<x id="1"/>Kubernetes<x id="2"/> <x id="3"/>クラスター<x id="4"/> は
+<x id="5"/>コンテナ化された<x id="6"/>アプリの数を増やしたり減らしたり、
+ただし、そのスケーラビリティはいくつかの要因に依存します。
+<x id="7"/>ノード<x id="8"/>の数、各ノードが処理できる<x id="9"/>コンテナの数<x id="10"/> 、
+また、コントロール プレーンはいくつのレコードと操作をサポートできますか?</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A scalable system makes it easy to add more capacity.
+We differentiate between two scaling approaches.
+On the one hand, there is <x id="1"/>horizontal scaling<x id="2"/> which adds more nodes to handle increased load.
+In contrast, in <x id="3"/>vertical scaling<x id="4"/> individual nodes are made more powerful to perform more transactions
+(e.g. by adding more memory or CPU to an individual machine).
+A scalable system is able to change easily and meet user needs.</source>
+<target xml:lang="ja" state="translated">スケーラブルなシステムにより、容量を簡単に追加できます。
+2 つのスケーリング アプローチを区別します。
+<x id="1"/>水平方向のスケーリング<x id="2"/>では、ノードを追加して増加した負荷を処理します。
+対照的に、<x id="3"/>垂直スケーリング<x id="4"/>では、個々のノードがより強力になり、より多くのトランザクションを実行できるようになります
+(たとえば、個々のマシンにメモリまたは CPU を追加することによって)。
+スケーラブルなシステムは、簡単に変更でき、ユーザーのニーズを満たすことができます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

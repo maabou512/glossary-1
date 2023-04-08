@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/stateful-apps.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">When we speak of stateful (and <x id="1"/>stateless<x id="2"/>) apps,
+state refers to any data the app needs to store to function as designed.
+Any kind of online shop that remembers your cart is a stateful app for example.</source>
+<target xml:lang="ja" state="translated">ステートフル (および <x id="1"/>ステートレス<x id="2"/>) アプリについて話すとき、
+状態とは、アプリが設計どおりに機能するために保存する必要があるデータを指します。
+たとえば、カートを記憶するあらゆる種類のオンライン ショップは、ステートフル アプリです。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Using an app generally requires multiple requests.
+For example, when online banking, you'll authenticate yourself by
+entering your password (request #1),
+then you may transfer money to a friend (request #2),
+and finally, you'll want to view transfer details (request #3).
+To function correctly, each step has to remember the previous ones,
+and the bank needs to remember the state of everyone’s accounts.
+Today, most applications we use are at least partly stateful,
+as they store things like preferences and settings to improve the user experience.</source>
+<target xml:lang="ja" state="translated">アプリを使用するには、通常、複数のリクエストが必要です。
+たとえば、オンライン バンキングでは、
+パスワードの入力 (リクエスト #1)、
+次に、友人に送金することができます (リクエスト #2)。
+最後に、転送の詳細を表示します (要求 #3)。
+正しく機能するためには、各ステップが前のステップを記憶している必要があります。
+銀行は全員の口座の状態を覚えておく必要があります。
+今日、私たちが使用するほとんどのアプリケーションは、少なくとも部分的にステートフルです。
+ユーザーエクスペリエンスを向上させるために、設定や設定などを保存するためです。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">There are several ways to store state for a stateful application.
+The simplest is to hold the state in memory and not persist it anywhere.
+The problem with that is, whenever the application has to be restarted, all state is lost.
+In order to prevent that, state is persisted either locally (on disk) or in database systems.</source>
+<target xml:lang="ja" state="translated">ステートフル アプリケーションの状態を保存するには、いくつかの方法があります。
+最も簡単な方法は、状態をメモリに保持し、どこにも保持しないことです。
+その問題は、アプリケーションを再起動する必要があるたびに、すべての状態が失われることです。
+それを防ぐために、状態はローカル (ディスク上) またはデータベース システムのいずれかに保持されます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

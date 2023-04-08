@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/immutable-infrastructure.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Immutable Infrastructure refers to computer infrastructure
+(<x id="1"/>virtual machines<x id="2"/>, <x id="3"/>containers<x id="4"/>, network appliances)
+that cannot be changed once deployed.
+This can be enforced by an automated process that overwrites unauthorized changes or
+through a system that won't allow changes in the first place.
+Containers are a good example of immutable infrastructure
+because persistent changes to containers can only be made by
+creating a new version of the container or recreating the existing container from its image.</source>
+<target xml:lang="ja" state="translated">イミュータブル インフラストラクチャとは、コンピュータ インフラストラクチャを指します。
+(<x id="1"/>仮想マシン<x id="2"/>、<x id="3"/>コンテナ<x id="4"/>、ネットワーク アプライアンス)
+一度展開すると変更できません。
+これは、許可されていない変更を上書きする自動化されたプロセスによって実施できます。
+そもそも変更を許可しないシステムを通じて。
+コンテナは不変のインフラストラクチャの良い例です
+コンテナへの永続的な変更は、
+コンテナーの新しいバージョンを作成するか、そのイメージから既存のコンテナーを再作成します。</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">By preventing or identifying unauthorized changes,
+immutable infrastructures make it easier to identify and mitigate security risks.
+Operating such a system becomes a lot more straightforward
+because administrators can make assumptions about it.
+After all, they know no one made mistakes or changes they forgot to communicate.
+Immutable infrastructure goes hand-in-hand with <x id="1"/>infrastructure as code<x id="2"/>
+where all automation needed to create infrastructure is stored in version control (e.g. Git).
+This combination of immutability and version control means that
+there is a durable audit log of every authorized change to a system.</source>
+<target xml:lang="ja" state="translated">不正な変更を防止または特定することにより、
+不変のインフラストラクチャにより、セキュリティ リスクの特定と軽減が容易になります。
+このようなシステムの操作はより簡単になります
+管理者はそれについて推測できるからです。
+結局のところ、コミュニケーションを忘れて間違いや変更を加えた人は誰もいないことを彼らは知っています。
+不変のインフラストラクチャは、<x id="1"/>コードとしてのインフラストラクチャ<x id="2"/>と密接に関連しています
+インフラストラクチャの作成に必要なすべての自動化は、バージョン管理 (Git など) に保存されます。
+この不変性とバージョン管理の組み合わせは、
+システムに対して承認されたすべての変更の永続的な監査ログがあります。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

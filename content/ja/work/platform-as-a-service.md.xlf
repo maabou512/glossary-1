@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/platform-as-a-service.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A Platform as a Service, or PaaS, is an external platform for application development teams to deploy and run their apps.
+Heroku, Cloud Foundry, App Engine are examples of PaaS offerings.</source>
+<target xml:lang="ja" state="translated">Platform as a Service (PaaS) は、アプリケーション開発チームがアプリケーションをデプロイして実行するための外部プラットフォームです。
+Heroku、Cloud Foundry、App Engine は PaaS オファリングの例です。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">To take advantage of cloud native patterns like <x id="1"/>microservices<x id="2"/> or <x id="3"/>distributed applications<x id="4"/>,
+operations teams and developers need to be able to offload a significant amount of operations and maintenance work.
+These include tasks like provisioning infrastructure,
+handling <x id="5"/>service discovery<x id="6"/> and load balancing, and <x id="7"/>scaling<x id="8"/> applications.</source>
+<target xml:lang="ja" state="translated"><x id="1"/>マイクロサービス<x id="2"/>や<x id="3"/>分散アプリケーション<x id="4" などのクラウド="" ネイティブ="" パターンを活用するため="">、
+運用チームと開発者は、大量の運用と保守作業をオフロードできる必要があります。
+これらには、インフラストラクチャのプロビジョニング、
+<x id="5"/>サービスの検出<x id="6"/>と負荷分散の処理、および<x id="7"/>スケーリング<x id="8"/>アプリケーション。</x></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">A PaaS provides common infrastructure tools to application developers in a fully automated fashion.
+It allows developers to understand and worry less about infrastructure and devote more time and effort to writing application code.
+It also provides some monitoring and <x id="1"/>observability<x id="2"/> to help application teams ensure their apps are healthy.</source>
+<target xml:lang="ja" state="translated">PaaS は、完全に自動化された方法でアプリケーション開発者に共通のインフラストラクチャ ツールを提供します。
+これにより、開発者はインフラストラクチャについて理解し、心配することが少なくなり、アプリケーション コードの作成により多くの時間と労力を費やすことができます。
+また、監視と<x id="1"/>オブザーバビリティ<x id="2"/>を提供して、アプリケーション チームがアプリの健全性を確保できるようにします。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

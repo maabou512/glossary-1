@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/function-as-a-service.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Function as a Service (FaaS) is a type of <x id="1"/>serverless<x id="2"/> <x id="3"/>cloud computing<x id="4"/> <x id="5"/>service<x id="6"/>
+that allows executing code in response to events
+without maintaining the complex infrastructure
+typically associated with building and launching <x id="7"/>microservices<x id="8"/> applications.
+With FaaS, users manage only functions and data while the cloud provider manages the application.
+This allows developers to get the functions they need without paying for services when code isn’t running.</source>
+<target xml:lang="ja" state="translated">Function as a Service (FaaS) は、<x id="1"/>サーバーレス<x id="2"/> <x id="3"/>クラウド コンピューティング<x id="4 "/> <x id="5"/>サービス<x id="6"/>
+イベントに応答してコードを実行できるようにする
+複雑なインフラストラクチャを維持することなく
+通常、<x id="7"/>マイクロサービス<x id="8"/> アプリケーションの構築と起動に関連しています。
+FaaS では、ユーザーは機能とデータのみを管理し、クラウド プロバイダーはアプリケーションを管理します。
+これにより、開発者は、コードが実行されていないときにサービスに料金を支払うことなく、必要な機能を取得できます。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">In a traditional on-premises scenario, a business manages and maintains its own data center.
+The business must invest in servers, storage, software, and other technologies
+and potentially hire an IT staff or contractors to purchase, manage, and upgrade all the equipment and licenses.
+The data center has to be built to meet peak demand, even when workloads decline and those resources stand idle.
+Conversely, if the business grows quickly, the IT department might struggle to keep up.
+Under a standard <x id="1"/>Infrastructure-as-a-Service (IaaS)<x id="2"/> cloud computing model,
+users pre-purchase capacity units, meaning you pay a public cloud provider for always-on server components to run your apps.
+It’s the user’s responsibility to scale up server capacity during times of high demand
+and scale down when that capacity is no longer needed.
+The cloud infrastructure necessary to run an app is active even when the app isn’t being used.</source>
+<target xml:lang="ja" state="translated">従来のオンプレミス シナリオでは、企業は独自のデータ センターを管理および維持します。
+ビジネスは、サーバー、ストレージ、ソフトウェア、およびその他のテクノロジーに投資する必要があります
+また、すべての機器とライセンスを購入、管理、およびアップグレードするために、IT スタッフまたは請負業者を雇う可能性もあります。
+データセンターは、ワークロードが減少し、それらのリソースがアイドル状態になった場合でも、ピーク需要に対応できるように構築する必要があります。
+逆に、ビジネスが急速に成長する場合、IT 部門は追いつくのに苦労する可能性があります。
+標準の<x id="1"/>Infrastructure-as-a-Service (IaaS)<x id="2"/>クラウド コンピューティング モデルでは、
+ユーザーはキャパシティー ユニットを事前購入します。つまり、アプリを実行するための常時稼働サーバー コンポーネントに対してパブリック クラウド プロバイダーに料金を支払います。
+需要の高い時間帯にサーバー容量をスケールアップするのはユーザーの責任です
+その容量が不要になったらスケールダウンします。
+アプリを実行するために必要なクラウド インフラストラクチャは、アプリが使用されていないときでもアクティブです。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">FaaS gives developers an <x id="1"/>abstraction<x id="2"/> for running web applications in response to events without managing servers.
+For example, uploading a file could trigger custom code that transcodes the file into various formats.
+FaaS infrastructure will auto-scale the code for heavy use,
+and the developer does not have to spend any time or resources building the code for <x id="3"/>scalability<x id="4"/>.
+Billing is based on computation time alone, which means businesses do not have to pay when the functions are not in use.</source>
+<target xml:lang="ja" state="translated">FaaS は、サーバーを管理することなく、イベントに応答して Web アプリケーションを実行するための<x id="1"/>抽象化<x id="2"/>を開発者に提供します。
+たとえば、ファイルをアップロードすると、ファイルをさまざまな形式にトランスコードするカスタム コードがトリガーされる可能性があります。
+FaaS インフラストラクチャは、使用頻度の高いコードを自動スケーリングします。
+開発者は、<x id="3"/>スケーラビリティ<x id="4"/>のためにコードを作成するために時間やリソースを費やす必要はありません。
+請求は計算時間のみに基づいているため、企業は機能が使用されていないときに料金を支払う必要がありません。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

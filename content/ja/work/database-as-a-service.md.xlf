@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/database-as-a-service.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja" state="translated">それは何ですか</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Database-as-a-Service (DBaaS) is a service managed by a <x id="1"/>cloud<x id="2"/> operator (public or private)
+that supports applications without requiring the application team to
+perform traditional database administration functions.
+DBaaS allows app developers to leverage databases without being experts or
+hiring a database administrator (DBA) to keep the database up to date.</source>
+<target xml:lang="ja" state="translated">Database-as-a-Service (DBaaS) は、<x id="1"/>cloud<x id="2"/> オペレーター (パブリックまたはプライベート) によって管理されるサービスです。
+アプリケーション チームに要求することなくアプリケーションをサポートする
+従来のデータベース管理機能を実行します。
+DBaaS を使用すると、アプリ開発者は専門家でなくてもデータベースを活用できます。
+データベースを最新の状態に保つためにデータベース管理者 (DBA) を雇う。</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja" state="translated">対処する問題</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Traditionally, in on-premise setups, organizations regularly have to invest in
+additional storage and processing capacity to accommodate database expansion which can be expensive.
+Additionally, developers provision and configure databases with the help of IT infrastructure teams,
+slowing deployment speed of database-driven applications down.
+Loading and executing them also takes longer.</source>
+<target xml:lang="ja" state="translated">伝統的に、オンプレミスのセットアップでは、組織は定期的に投資する必要があります。
+費用がかかる可能性のあるデータベースの拡張に対応するための追加のストレージと処理能力。
+さらに、開発者は、IT インフラストラクチャ チームの助けを借りて、データベースのプロビジョニングと構成を行います。
+データベース駆動型アプリケーションの展開速度が低下します。
+それらのロードと実行にも時間がかかります。</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja" state="translated">どのように役立つか</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">DBaaS allows developers to outsource all administration/administrative operations to the cloud-based service provider.
+The service provider ensures the database is running smoothly,
+including configuration management, backups, patches, upgrades, service monitoring, and more,
+with a user-friendly interface to manage it all.
+DBaaS helps organizations develop enterprise-grade applications faster while minimizing database costs.</source>
+<target xml:lang="ja" state="translated">DBaaS を使用すると、開発者はすべての管理/管理操作をクラウドベースのサービス プロバイダーにアウトソーシングできます。
+サービス プロバイダーは、データベースがスムーズに実行されていることを確認します。
+構成管理、バックアップ、パッチ、アップグレード、サービス監視などを含む、
+ユーザーフレンドリーなインターフェイスですべてを管理できます。
+DBaaS は、組織がデータベース コストを最小限に抑えながら、エンタープライズ グレードのアプリケーションをより迅速に開発するのに役立ちます。</target>
+</trans-unit>
+</body>
+</file>
+</xliff>
