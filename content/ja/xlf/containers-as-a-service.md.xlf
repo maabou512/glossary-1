@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/containers-as-a-service.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Containers-as-a-Service (CaaS) is a cloud service that helps manage and deploy apps
+using <x id="1"/>container<x id="2"/>-based <x id="3"/>abstraction<x id="4"/>.
+This service can be deployed on-premises or in the cloud.</source>
+<target xml:lang="ja">Containers-as-a-Service (CaaS) is a cloud service that helps manage and deploy apps
+using <x id="1"/>container<x id="2"/>-based <x id="3"/>abstraction<x id="4"/>.
+This service can be deployed on-premises or in the cloud.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">CaaS providers offer a framework or orchestration platform that
+automates key IT functions on which containers are deployed and managed.
+It helps developers build secure and <x id="1"/>scalable<x id="2"/> containerized apps.
+Because users only buy the resources they need (scheduling capabilities, load balancing, etc.),
+they save money and increase efficiency.
+Containers create consistent environments to rapidly develop and
+deliver <x id="3"/>cloud-native applications<x id="4"/> that can run anywhere.</source>
+<target xml:lang="ja">CaaS providers offer a framework or orchestration platform that
+automates key IT functions on which containers are deployed and managed.
+It helps developers build secure and <x id="1"/>scalable<x id="2"/> containerized apps.
+Because users only buy the resources they need (scheduling capabilities, load balancing, etc.),
+they save money and increase efficiency.
+Containers create consistent environments to rapidly develop and
+deliver <x id="3"/>cloud-native applications<x id="4"/> that can run anywhere.</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Without CaaS, software development teams need to deploy, manage, and monitor
+the underlying infrastructure that containers run on.</source>
+<target xml:lang="ja">Without CaaS, software development teams need to deploy, manage, and monitor
+the underlying infrastructure that containers run on.</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">When deploying containerized applications to a CaaS platform,
+users gain visibility into system performance through log aggregation and monitoring tools.
+CaaS also includes built-in functionality for <x id="1"/>auto scaling<x id="2"/> and orchestration management.
+It enables teams to build high visibility and high availability <x id="3"/>distributed systems<x id="4"/>.
+In addition, by allowing rapid deployments, CaaS increases team development velocity.
+While containers ensure a consistent deployment target,
+CaaS lowers engineering operating costs
+by reducing needed <x id="5"/>DevOps<x id="6"/> resources needed to manage a deployment.</source>
+<target xml:lang="ja">When deploying containerized applications to a CaaS platform,
+users gain visibility into system performance through log aggregation and monitoring tools.
+CaaS also includes built-in functionality for <x id="1"/>auto scaling<x id="2"/> and orchestration management.
+It enables teams to build high visibility and high availability <x id="3"/>distributed systems<x id="4"/>.
+In addition, by allowing rapid deployments, CaaS increases team development velocity.
+While containers ensure a consistent deployment target,
+CaaS lowers engineering operating costs
+by reducing needed <x id="5"/>DevOps<x id="6"/> resources needed to manage a deployment.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

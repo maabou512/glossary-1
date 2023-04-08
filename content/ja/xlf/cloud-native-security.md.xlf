@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/cloud-native-security.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Cloud native security is an approach that builds security into <x id="1"/>cloud native applications<x id="2"/>.
+It ensures that security is part of the entire application lifecycle from development to production.
+Cloud native security seeks to ensure the same standards as traditional security models
+while adapting to the particulars of cloud native environments,
+namely rapid code changes and highly ephemeral infrastructure.
+Cloud native security is highly related to the practice called <x id="3"/>DevSecOps<x id="4"/>.</source>
+<target xml:lang="ja">Cloud native security is an approach that builds security into <x id="1"/>cloud native applications<x id="2"/>.
+It ensures that security is part of the entire application lifecycle from development to production.
+Cloud native security seeks to ensure the same standards as traditional security models
+while adapting to the particulars of cloud native environments,
+namely rapid code changes and highly ephemeral infrastructure.
+Cloud native security is highly related to the practice called <x id="3"/>DevSecOps<x id="4"/>.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Traditional security models were built with a number of assumptions that are no longer valid.
+Cloud native apps change frequently, use a large number of open source tools and libraries,
+often run in vendor-controlled infrastructure, and are subject to rapid infrastructure changes.
+Code reviews, long quality assurance cycles, host-based vulnerability scanning,
+and last minute security reviews cannot scale with cloud native applications.</source>
+<target xml:lang="ja">Traditional security models were built with a number of assumptions that are no longer valid.
+Cloud native apps change frequently, use a large number of open source tools and libraries,
+often run in vendor-controlled infrastructure, and are subject to rapid infrastructure changes.
+Code reviews, long quality assurance cycles, host-based vulnerability scanning,
+and last minute security reviews cannot scale with cloud native applications.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Cloud native security introduces a new way of working that protects applications
+by migrating from traditional security models to one where security is involved in every step of the release cycle.
+Manual audits and checks are largely replaced with automated scans.
+Rapid code release pipelines are integrated with tools that scan code for vulnerabilities before they’re compiled.
+Open source libraries are pulled from trusted sources and monitored for vulnerabilities.
+Instead of slowing change a cloud native security model embraces it
+by frequently updated vulnerable components or ensuring infrastructure is regularly replaced.</source>
+<target xml:lang="ja">Cloud native security introduces a new way of working that protects applications
+by migrating from traditional security models to one where security is involved in every step of the release cycle.
+Manual audits and checks are largely replaced with automated scans.
+Rapid code release pipelines are integrated with tools that scan code for vulnerabilities before they’re compiled.
+Open source libraries are pulled from trusted sources and monitored for vulnerabilities.
+Instead of slowing change a cloud native security model embraces it
+by frequently updated vulnerable components or ensuring infrastructure is regularly replaced.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

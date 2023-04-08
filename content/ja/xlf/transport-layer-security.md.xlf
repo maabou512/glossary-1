@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/transport-layer-security.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Transport Layer Security (TLS) is a protocol designed to provide increased security to communication over a network.&#13;
+It ensures the secure delivery of data sent over the Internet,&#13;
+avoiding possible monitoring and/or alteration of the data.&#13;
+This protocol is widely used in applications such as messaging, e-mail, etc.</source>
+<target xml:lang="ja">Transport Layer Security (TLS) is a protocol designed to provide increased security to communication over a network.&#13;
+It ensures the secure delivery of data sent over the Internet,&#13;
+avoiding possible monitoring and/or alteration of the data.&#13;
+This protocol is widely used in applications such as messaging, e-mail, etc.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Without TLS, sensitive information such as browsing habits, e-mail correspondence, online chats, and conferencing calls can&#13;
+easily be traced and modified by others during the transmission.&#13;
+Enabling server and client applications to support TLS ensures that&#13;
+data transmitted between them is encrypted and not viewable by third parties.</source>
+<target xml:lang="ja">Without TLS, sensitive information such as browsing habits, e-mail correspondence, online chats, and conferencing calls can&#13;
+easily be traced and modified by others during the transmission.&#13;
+Enabling server and client applications to support TLS ensures that&#13;
+data transmitted between them is encrypted and not viewable by third parties.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">TLS uses a combination of encoding techniques that provide security while transmitting data over a network.&#13;
+TLS allows for an encrypted connection between a client application and a server, like a web browser and a banking site.&#13;
+It also allows client applications to positively identify the server they are calling to,&#13;
+which reduces the risk of a client talking to a fraudulent site.&#13;
+This ensures that third parties are unable to see and monitor data transmitted between applications using TLS,&#13;
+which protects sensitive and private information such as credit card numbers, passwords, location, etc.</source>
+<target xml:lang="ja">TLS uses a combination of encoding techniques that provide security while transmitting data over a network.&#13;
+TLS allows for an encrypted connection between a client application and a server, like a web browser and a banking site.&#13;
+It also allows client applications to positively identify the server they are calling to,&#13;
+which reduces the risk of a client talking to a fraudulent site.&#13;
+This ensures that third parties are unable to see and monitor data transmitted between applications using TLS,&#13;
+which protects sensitive and private information such as credit card numbers, passwords, location, etc.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

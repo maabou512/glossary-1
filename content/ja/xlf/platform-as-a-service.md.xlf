@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/platform-as-a-service.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A Platform as a Service, or PaaS, is an external platform for application development teams to deploy and run their apps.
+Heroku, Cloud Foundry, App Engine are examples of PaaS offerings.</source>
+<target xml:lang="ja">A Platform as a Service, or PaaS, is an external platform for application development teams to deploy and run their apps.
+Heroku, Cloud Foundry, App Engine are examples of PaaS offerings.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">To take advantage of cloud native patterns like <x id="1"/>microservices<x id="2"/> or <x id="3"/>distributed applications<x id="4"/>,
+operations teams and developers need to be able to offload a significant amount of operations and maintenance work.
+These include tasks like provisioning infrastructure,
+handling <x id="5"/>service discovery<x id="6"/> and load balancing, and <x id="7"/>scaling<x id="8"/> applications.</source>
+<target xml:lang="ja">To take advantage of cloud native patterns like <x id="1"/>microservices<x id="2"/> or <x id="3"/>distributed applications<x id="4"/>,
+operations teams and developers need to be able to offload a significant amount of operations and maintenance work.
+These include tasks like provisioning infrastructure,
+handling <x id="5"/>service discovery<x id="6"/> and load balancing, and <x id="7"/>scaling<x id="8"/> applications.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">A PaaS provides common infrastructure tools to application developers in a fully automated fashion.
+It allows developers to understand and worry less about infrastructure and devote more time and effort to writing application code.
+It also provides some monitoring and <x id="1"/>observability<x id="2"/> to help application teams ensure their apps are healthy.</source>
+<target xml:lang="ja">A PaaS provides common infrastructure tools to application developers in a fully automated fashion.
+It allows developers to understand and worry less about infrastructure and devote more time and effort to writing application code.
+It also provides some monitoring and <x id="1"/>observability<x id="2"/> to help application teams ensure their apps are healthy.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/_index.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Cloud Native Glossary</source>
+<target xml:lang="ja">Cloud Native Glossary</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">The Cloud Native Glossary aims to make the cloud native space — which is notorious for its complexity — simpler for people by making it easier to understand,
+not only for technologists but also for people on the business side.
+To achieve that, we focus on simplicity (e.g., simple language free from buzzwords, examples anyone using technology can relate to, leaving unnecessary details out).
+The Glossary is a project led by the CNCF Business Value Subcommittee (BVS).</source>
+<target xml:lang="ja">The Cloud Native Glossary aims to make the cloud native space — which is notorious for its complexity — simpler for people by making it easier to understand,
+not only for technologists but also for people on the business side.
+To achieve that, we focus on simplicity (e.g., simple language free from buzzwords, examples anyone using technology can relate to, leaving unnecessary details out).
+The Glossary is a project led by the CNCF Business Value Subcommittee (BVS).</target>
+</trans-unit>
+<group id="sd1_ssf1" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf1_tu2" resname="sd1_1" restype="x-alt" xml:space="preserve">
+<source xml:lang="en">People watching a Kubecon presentation</source>
+<target xml:lang="ja">People watching a Kubecon presentation</target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu1" resname="sd1_3" restype="x-paragraph" xml:space="preserve">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+</group>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Contributing</source>
+<target xml:lang="ja">Contributing</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Everybody is invited to suggest changes, additions, and improvements to the Cloud Native Glossary.
+We employ a community-driven process governed by the CNCF to develop and improve upon this shared lexicon.
+This Glossary provides a vendor-neutral platform to organize a shared vocabulary around cloud native technologies.
+Contributions are welcome from all participants who abide by the project's purpose and charter.</source>
+<target xml:lang="ja">Everybody is invited to suggest changes, additions, and improvements to the Cloud Native Glossary.
+We employ a community-driven process governed by the CNCF to develop and improve upon this shared lexicon.
+This Glossary provides a vendor-neutral platform to organize a shared vocabulary around cloud native technologies.
+Contributions are welcome from all participants who abide by the project's purpose and charter.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Anyone who wishes to make a contribution may submit a GitHub issue or create a pull request.
+Please ensure you follow the <x id="1"/>Style Guide<x id="2"/>, read the <x id="3"/>How To Contribute<x id="4"/> doc, and join the <x id="5"/>#glossary<x id="6"/> channel on the CNCF Slack.
+There is also a <x id="7"/>#glossary-localizations<x id="8"/> channel for those who want to help translate the glossary into their native language.</source>
+<target xml:lang="ja">Anyone who wishes to make a contribution may submit a GitHub issue or create a pull request.
+Please ensure you follow the <x id="1"/>Style Guide<x id="2"/>, read the <x id="3"/>How To Contribute<x id="4"/> doc, and join the <x id="5"/>#glossary<x id="6"/> channel on the CNCF Slack.
+There is also a <x id="7"/>#glossary-localizations<x id="8"/> channel for those who want to help translate the glossary into their native language.</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Acknowledgements</source>
+<target xml:lang="ja">Acknowledgements</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">The Cloud Native Glossary was initiated by the CNCF Marketing Committee (Business Value Subcommittee) and includes contributions from
+<x id="1"/>Catherine Paganini<x id="2"/>,
+<x id="3"/>Chris Aniszczyk<x id="4"/>,
+<x id="5"/>Daniel Jones<x id="6"/>,
+<x id="7"/>Jason Morgan<x id="8"/>,
+<x id="9"/>Katelin Ramer<x id="10"/>,
+<x id="11"/>Mike Foster<x id="12"/>,
+and many more contributors.
+For a complete contributor list, please refer to <x id="13"/>this GitHub page<x id="14"/>.</source>
+<target xml:lang="ja">The Cloud Native Glossary was initiated by the CNCF Marketing Committee (Business Value Subcommittee) and includes contributions from
+<x id="1"/>Catherine Paganini<x id="2"/>,
+<x id="3"/>Chris Aniszczyk<x id="4"/>,
+<x id="5"/>Daniel Jones<x id="6"/>,
+<x id="7"/>Jason Morgan<x id="8"/>,
+<x id="9"/>Katelin Ramer<x id="10"/>,
+<x id="11"/>Mike Foster<x id="12"/>,
+and many more contributors.
+For a complete contributor list, please refer to <x id="13"/>this GitHub page<x id="14"/>.</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">The Glossary is maintained by
+<x id="1"/>Catherine Paganini<x id="2"/>,
+<x id="3"/>Jason Morgan<x id="4"/>,
+<x id="5"/>Jihoon Seo<x id="6"/>,
+<x id="7"/>Noah Ispas<x id="8"/>,
+and <x id="9"/>Seokho Son<x id="10"/>.</source>
+<target xml:lang="ja">The Glossary is maintained by
+<x id="1"/>Catherine Paganini<x id="2"/>,
+<x id="3"/>Jason Morgan<x id="4"/>,
+<x id="5"/>Jihoon Seo<x id="6"/>,
+<x id="7"/>Noah Ispas<x id="8"/>,
+and <x id="9"/>Seokho Son<x id="10"/>.</target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">License</source>
+<target xml:lang="ja">License</target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en">All code contributions are under the Apache 2.0 license.
+Documentation is distributed under CC BY 4.0.</source>
+<target xml:lang="ja">All code contributions are under the Apache 2.0 license.
+Documentation is distributed under CC BY 4.0.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

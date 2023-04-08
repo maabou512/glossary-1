@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/version-control.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Source control (or version control) is the practice of tracking and managing changes to a document.
+It is a system that records changes to a file or set of files over time so that you can recall specific versions later.</source>
+<target xml:lang="ja">Source control (or version control) is the practice of tracking and managing changes to a document.
+It is a system that records changes to a file or set of files over time so that you can recall specific versions later.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Version control systems work to address the following problems,
+backing up a document or codebase as it changes over time,
+allowing multiple users to resolve conflicts when there are overlapping changes, and
+storing a log of changes over time.
+Application code can often be complex and critical to key business processes,
+so it is important to track who changed what, when it was changed, and why.
+Also, many, if not most applications, are modified by multiple developers,
+and there are often conflicts between the changes introduced by different developers.</source>
+<target xml:lang="ja">Version control systems work to address the following problems,
+backing up a document or codebase as it changes over time,
+allowing multiple users to resolve conflicts when there are overlapping changes, and
+storing a log of changes over time.
+Application code can often be complex and critical to key business processes,
+so it is important to track who changed what, when it was changed, and why.
+Also, many, if not most applications, are modified by multiple developers,
+and there are often conflicts between the changes introduced by different developers.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Version control helps developers move fast and preserve efficiency
+while storing a record of changes and providing a facility to resolve conflicts.
+It allows them to store application code in a repository and simplify collaboration.
+Modern application development relies heavily on version control systems, like git, to store their code.</source>
+<target xml:lang="ja">Version control helps developers move fast and preserve efficiency
+while storing a record of changes and providing a facility to resolve conflicts.
+It allows them to store application code in a repository and simplify collaboration.
+Modern application development relies heavily on version control systems, like git, to store their code.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

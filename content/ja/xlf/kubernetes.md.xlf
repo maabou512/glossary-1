@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/kubernetes.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Kubernetes, often abbreviated as K8s, is an open source container orchestrator.
+It automates the lifecycle of containerized applications on modern infrastructures, functioning as a "datacenter operating system" that manages applications across a <x id="1"/>distributed system<x id="2"/>.</source>
+<target xml:lang="ja">Kubernetes, often abbreviated as K8s, is an open source container orchestrator.
+It automates the lifecycle of containerized applications on modern infrastructures, functioning as a "datacenter operating system" that manages applications across a <x id="1"/>distributed system<x id="2"/>.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Kubernetes schedules <x id="1"/>containers<x id="2"/> across <x id="3"/>nodes<x id="4"/> in a <x id="5"/>cluster<x id="6"/>, bundling several infrastructure resources such as load balancer, persistent storage, etc. to run containerized applications.</source>
+<target xml:lang="ja">Kubernetes schedules <x id="1"/>containers<x id="2"/> across <x id="3"/>nodes<x id="4"/> in a <x id="5"/>cluster<x id="6"/>, bundling several infrastructure resources such as load balancer, persistent storage, etc. to run containerized applications.</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Kubernetes enables automation and extensibility, allowing users to deploy applications declaratively (see below) in a reproducible way.
+Kubernetes is extensible via its <x id="1"/>API<x id="2"/>, allowing experienced Kubernetes practitioners to leverage its automation capabilities according to their needs.</source>
+<target xml:lang="ja">Kubernetes enables automation and extensibility, allowing users to deploy applications declaratively (see below) in a reproducible way.
+Kubernetes is extensible via its <x id="1"/>API<x id="2"/>, allowing experienced Kubernetes practitioners to leverage its automation capabilities according to their needs.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Infrastructure automation and declarative configuration management have been important concepts for a long time, but they have become more pressing as <x id="1"/>cloud computing<x id="2"/> has gained popularity.
+As demand for compute resources increases and organizations need to provide more operational capabilities with fewer engineers, new technologies and working methods are required to meet that demand.</source>
+<target xml:lang="ja">Infrastructure automation and declarative configuration management have been important concepts for a long time, but they have become more pressing as <x id="1"/>cloud computing<x id="2"/> has gained popularity.
+As demand for compute resources increases and organizations need to provide more operational capabilities with fewer engineers, new technologies and working methods are required to meet that demand.</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">Similar to traditional <x id="1"/>infrastructure as code<x id="2"/> tools, Kubernetes helps with automation but has the advantage of working with containers.
+Containers are more resistant to configuration drift than <x id="3"/>virtual<x id="4"/> or physical machines.</source>
+<target xml:lang="ja">Similar to traditional <x id="1"/>infrastructure as code<x id="2"/> tools, Kubernetes helps with automation but has the advantage of working with containers.
+Containers are more resistant to configuration drift than <x id="3"/>virtual<x id="4"/> or physical machines.</target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Additionally, Kubernetes works declaratively, which means that instead of operators instructing the machine how to do something, they describe — usually as manifest files (e.g., YAML) — what the infrastructure should look like.
+Kubernetes then takes care of the "how".
+This results in Kubernetes being extremely compatible with infrastructure as code.</source>
+<target xml:lang="ja">Additionally, Kubernetes works declaratively, which means that instead of operators instructing the machine how to do something, they describe — usually as manifest files (e.g., YAML) — what the infrastructure should look like.
+Kubernetes then takes care of the "how".
+This results in Kubernetes being extremely compatible with infrastructure as code.</target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en">Kubernetes also <x id="1"/>self-heals<x id="2"/>.
+The cluster's actual state will always match the operator's desired state.
+If Kubernetes detects a deviation from what is described in the manifest files, a Kubernetes controller kicks in and fixes it.
+While the infrastructure Kubernetes uses may be continually changing, Kubernetes constantly and automatically adapts to changes and ensures that it matches with the desired state.</source>
+<target xml:lang="ja">Kubernetes also <x id="1"/>self-heals<x id="2"/>.
+The cluster's actual state will always match the operator's desired state.
+If Kubernetes detects a deviation from what is described in the manifest files, a Kubernetes controller kicks in and fixes it.
+While the infrastructure Kubernetes uses may be continually changing, Kubernetes constantly and automatically adapts to changes and ensures that it matches with the desired state.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

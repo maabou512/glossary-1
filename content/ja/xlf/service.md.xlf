@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/service.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Please note that in IT, service has multiple meanings.
+In this definition, we'll focus on the more traditional one: service as in microservice.
+How or even if services differ from microservices is nuanced and different people may have different opinions.
+For a high-level definition, we'll treat them as the same.
+Please refer to the <x id="1"/>microservices<x id="2"/> definition.</source>
+<target xml:lang="ja">Please note that in IT, service has multiple meanings.
+In this definition, we'll focus on the more traditional one: service as in microservice.
+How or even if services differ from microservices is nuanced and different people may have different opinions.
+For a high-level definition, we'll treat them as the same.
+Please refer to the <x id="1"/>microservices<x id="2"/> definition.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

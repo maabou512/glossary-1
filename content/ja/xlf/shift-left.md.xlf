@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/shift-left.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Left in Shift Left refers to earlier stages in a software development lifecycle,
+thinking of the lifecycle as a line where stages are executed from left to right.
+Shift Left is the practice of implementing tests, security, or other development practices
+early in the software development lifecycle rather than towards the end.</source>
+<target xml:lang="ja">Left in Shift Left refers to earlier stages in a software development lifecycle,
+thinking of the lifecycle as a line where stages are executed from left to right.
+Shift Left is the practice of implementing tests, security, or other development practices
+early in the software development lifecycle rather than towards the end.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Although originally used to refer to the process of testing early,
+Shift Left can now also be applied to other aspects of software development and <x id="1"/>DevOps<x id="2"/>, such as security and deployment.</source>
+<target xml:lang="ja">Although originally used to refer to the process of testing early,
+Shift Left can now also be applied to other aspects of software development and <x id="1"/>DevOps<x id="2"/>, such as security and deployment.</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Security issues, bugs, and software defects can be more difficult and expensive to fix
+if they are discovered late in the development cycle or after deployment,
+particularly if the software has already been deployed into production.</source>
+<target xml:lang="ja">Security issues, bugs, and software defects can be more difficult and expensive to fix
+if they are discovered late in the development cycle or after deployment,
+particularly if the software has already been deployed into production.</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">By adopting a Shift Left mindset for software development,
+teams can implement testing and security throughout the development lifecycle.
+And because responsibility for testing and security is shared across the development team
+— from software engineers to quality assurance to operations —
+everyone plays a part in ensuring the stability and security of an application.</source>
+<target xml:lang="ja">By adopting a Shift Left mindset for software development,
+teams can implement testing and security throughout the development lifecycle.
+And because responsibility for testing and security is shared across the development team
+— from software engineers to quality assurance to operations —
+everyone plays a part in ensuring the stability and security of an application.</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">In addition, shifting left enables continuous improvement and
+follows an <x id="1"/>agile<x id="2"/> rather than waterfall approach to development.
+Teams can make small iterative improvements and identify problems earlier on.
+This approach allows engineers to adopt security and secure development practices
+as early as the design and architecture phase.
+Testing throughout the development cycle, decreases the time required for testing before a software release.</source>
+<target xml:lang="ja">In addition, shifting left enables continuous improvement and
+follows an <x id="1"/>agile<x id="2"/> rather than waterfall approach to development.
+Teams can make small iterative improvements and identify problems earlier on.
+This approach allows engineers to adopt security and secure development practices
+as early as the design and architecture phase.
+Testing throughout the development cycle, decreases the time required for testing before a software release.</target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Many software tools and SaaS solutions help shift these practices left.
+However, shift left can also be implemented through improved processes and cultural changes within a team.</source>
+<target xml:lang="ja">Many software tools and SaaS solutions help shift these practices left.
+However, shift left can also be implemented through improved processes and cultural changes within a team.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

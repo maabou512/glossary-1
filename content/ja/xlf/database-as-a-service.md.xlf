@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/database-as-a-service.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Database-as-a-Service (DBaaS) is a service managed by a <x id="1"/>cloud<x id="2"/> operator (public or private)
+that supports applications without requiring the application team to
+perform traditional database administration functions.
+DBaaS allows app developers to leverage databases without being experts or
+hiring a database administrator (DBA) to keep the database up to date.</source>
+<target xml:lang="ja">Database-as-a-Service (DBaaS) is a service managed by a <x id="1"/>cloud<x id="2"/> operator (public or private)
+that supports applications without requiring the application team to
+perform traditional database administration functions.
+DBaaS allows app developers to leverage databases without being experts or
+hiring a database administrator (DBA) to keep the database up to date.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Traditionally, in on-premise setups, organizations regularly have to invest in
+additional storage and processing capacity to accommodate database expansion which can be expensive.
+Additionally, developers provision and configure databases with the help of IT infrastructure teams,
+slowing deployment speed of database-driven applications down.
+Loading and executing them also takes longer.</source>
+<target xml:lang="ja">Traditionally, in on-premise setups, organizations regularly have to invest in
+additional storage and processing capacity to accommodate database expansion which can be expensive.
+Additionally, developers provision and configure databases with the help of IT infrastructure teams,
+slowing deployment speed of database-driven applications down.
+Loading and executing them also takes longer.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">DBaaS allows developers to outsource all administration/administrative operations to the cloud-based service provider.
+The service provider ensures the database is running smoothly,
+including configuration management, backups, patches, upgrades, service monitoring, and more,
+with a user-friendly interface to manage it all.
+DBaaS helps organizations develop enterprise-grade applications faster while minimizing database costs.</source>
+<target xml:lang="ja">DBaaS allows developers to outsource all administration/administrative operations to the cloud-based service provider.
+The service provider ensures the database is running smoothly,
+including configuration management, backups, patches, upgrades, service monitoring, and more,
+with a user-friendly interface to manage it all.
+DBaaS helps organizations develop enterprise-grade applications faster while minimizing database costs.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/load-balancer.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A load balancer is a tool that efficiently distributes incoming requests among multiple instances of an application.
+Take a <x id="1"/>microservice<x id="2"/> architecture for example, where each service can be <x id="3"/>scaled horizontally<x id="4"/>.
+A load balancer sits in front of a scaled microservice and ensures that no one instance gets the bulk of the requests.
+Load balancers can be software or hardware-based.</source>
+<target xml:lang="ja">A load balancer is a tool that efficiently distributes incoming requests among multiple instances of an application.
+Take a <x id="1"/>microservice<x id="2"/> architecture for example, where each service can be <x id="3"/>scaled horizontally<x id="4"/>.
+A load balancer sits in front of a scaled microservice and ensures that no one instance gets the bulk of the requests.
+Load balancers can be software or hardware-based.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Modern applications and websites generally serve hundreds of thousands of simultaneous end-user requests.
+To handle all those requests, applications are often scaled horizontally.
+But horizontal scaling introduces a new challenge. How do you distribute incoming traffic to all services equally?
+This is where load balancers come in.</source>
+<target xml:lang="ja">Modern applications and websites generally serve hundreds of thousands of simultaneous end-user requests.
+To handle all those requests, applications are often scaled horizontally.
+But horizontal scaling introduces a new challenge. How do you distribute incoming traffic to all services equally?
+This is where load balancers come in.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Load balancers dynamically distribute all incoming requests among multiple services, ensuring that no one service gets the bulk of it while others only get a few or none.
+In short, it spreads the load across multiple services, following a defined schema (i.e., evenly or percentage-based).
+Load balancers are essential to an application's overall performance and, ultimately, the user experience.</source>
+<target xml:lang="ja">Load balancers dynamically distribute all incoming requests among multiple services, ensuring that no one service gets the bulk of it while others only get a few or none.
+In short, it spreads the load across multiple services, following a defined schema (i.e., evenly or percentage-based).
+Load balancers are essential to an application's overall performance and, ultimately, the user experience.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

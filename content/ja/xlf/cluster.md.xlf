@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/cluster.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A cluster is a group of computers or applications that work together towards a common goal.
+In the context of cloud native computing, the term is most often applied to <x id="1"/>Kubernetes<x id="2"/>.
+A Kubernetes cluster is a set of services (or workloads) that run in their own containers, usually on different machines.
+The collection of all these <x id="3"/>containerized<x id="4"/> services, connected over a network, represent a cluster.</source>
+<target xml:lang="ja">A cluster is a group of computers or applications that work together towards a common goal.
+In the context of cloud native computing, the term is most often applied to <x id="1"/>Kubernetes<x id="2"/>.
+A Kubernetes cluster is a set of services (or workloads) that run in their own containers, usually on different machines.
+The collection of all these <x id="3"/>containerized<x id="4"/> services, connected over a network, represent a cluster.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Software that runs on a single computer presents a single point of failure
+— if that computer crashes, or someone accidentally unplugs the power cable,
+then some business-critical system may be taken offline.
+That's why modern software is generally built as <x id="1"/>distributed applications<x id="2"/>, grouped together as clusters.</source>
+<target xml:lang="ja">Software that runs on a single computer presents a single point of failure
+— if that computer crashes, or someone accidentally unplugs the power cable,
+then some business-critical system may be taken offline.
+That's why modern software is generally built as <x id="1"/>distributed applications<x id="2"/>, grouped together as clusters.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Clustered, distributed applications run across multiple machines, eliminating a single point of failure.
+But building distributed systems is really hard.
+In fact, it's a computer science discipline in its own right.
+The need for global systems and years of trial and error led to the development of a new kind of tech stack:
+<x id="1"/>cloud native technologies<x id="2"/>.
+These new technologies are the building blocks that make the operation and creation of distributed systems easier.</source>
+<target xml:lang="ja">Clustered, distributed applications run across multiple machines, eliminating a single point of failure.
+But building distributed systems is really hard.
+In fact, it's a computer science discipline in its own right.
+The need for global systems and years of trial and error led to the development of a new kind of tech stack:
+<x id="1"/>cloud native technologies<x id="2"/>.
+These new technologies are the building blocks that make the operation and creation of distributed systems easier.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

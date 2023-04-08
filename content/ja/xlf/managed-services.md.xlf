@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/managed-services.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A managed service is a software offering where operations and management are taken care of by a third party.
+Examples include database as a service offerings like Amazon’s RDS or an external monitoring service like Datadog.</source>
+<target xml:lang="ja">A managed service is a software offering where operations and management are taken care of by a third party.
+Examples include database as a service offerings like Amazon’s RDS or an external monitoring service like Datadog.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Managing software is complex, especially considering all the different technologies that make up a modern stack.
+Managing each aspect of it and/or having in-house experts able to do so may be too expensive or not worth your engineers' time.
+Your team is likely better off building new capabilities than taking care of the operational tasks that can be easily outsourced.</source>
+<target xml:lang="ja">Managing software is complex, especially considering all the different technologies that make up a modern stack.
+Managing each aspect of it and/or having in-house experts able to do so may be too expensive or not worth your engineers' time.
+Your team is likely better off building new capabilities than taking care of the operational tasks that can be easily outsourced.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Managed services are ready to use from day one with very little operational overhead.
+They allow organizations to effectively outsource tasks that fall outside of their core competency
+with well defined, and usually <x id="1"/>API<x id="2"/> driven, boundaries.</source>
+<target xml:lang="ja">Managed services are ready to use from day one with very little operational overhead.
+They allow organizations to effectively outsource tasks that fall outside of their core competency
+with well defined, and usually <x id="1"/>API<x id="2"/> driven, boundaries.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

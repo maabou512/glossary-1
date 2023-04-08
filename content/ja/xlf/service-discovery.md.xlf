@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/service-discovery.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Service discovery is the process of finding individual instances that make up a service.
+A service discovery tool keeps track of the various nodes or endpoints that make up a service.</source>
+<target xml:lang="ja">Service discovery is the process of finding individual instances that make up a service.
+A service discovery tool keeps track of the various nodes or endpoints that make up a service.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Cloud native architectures are dynamic and fluid, meaning they are constantly changing.
+A <x id="1"/>containerized<x id="2"/> app will likely end up starting and stopping multiple times in its lifetime.
+Each time that happens, it will have a new address and
+any app that wants to find it needs a tool to provide the new location information.</source>
+<target xml:lang="ja">Cloud native architectures are dynamic and fluid, meaning they are constantly changing.
+A <x id="1"/>containerized<x id="2"/> app will likely end up starting and stopping multiple times in its lifetime.
+Each time that happens, it will have a new address and
+any app that wants to find it needs a tool to provide the new location information.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Service discovery keeps track of apps within the network so they can find one another when needed.
+It provides a common place to find and potentially identify individual services.
+Service discovery engines are database-like tools that store info about what services exist and how to locate them.</source>
+<target xml:lang="ja">Service discovery keeps track of apps within the network so they can find one another when needed.
+It provides a common place to find and potentially identify individual services.
+Service discovery engines are database-like tools that store info about what services exist and how to locate them.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

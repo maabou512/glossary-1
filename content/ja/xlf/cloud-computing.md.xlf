@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/cloud-computing.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Cloud computing is a model that offers compute resources like CPU, network, and disk capabilities on-demand over the internet.
+Cloud computing gives users the ability to access and use computing power in a remote physical location.
+Cloud providers like AWS, GCP, Azure, DigitalOcean, and others all offer third parties
+the ability to rent access to compute resources in multiple geographic locations.</source>
+<target xml:lang="ja">Cloud computing is a model that offers compute resources like CPU, network, and disk capabilities on-demand over the internet.
+Cloud computing gives users the ability to access and use computing power in a remote physical location.
+Cloud providers like AWS, GCP, Azure, DigitalOcean, and others all offer third parties
+the ability to rent access to compute resources in multiple geographic locations.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Organizations traditionally faced two main problems when attempting to expand their use of computing power.
+They either acquire, support, design, and pay for facilities
+to host their physical servers and network or expand and maintain those facilities.
+Cloud computing allows organizations to outsource some portion of their computing needs to another organization.</source>
+<target xml:lang="ja">Organizations traditionally faced two main problems when attempting to expand their use of computing power.
+They either acquire, support, design, and pay for facilities
+to host their physical servers and network or expand and maintain those facilities.
+Cloud computing allows organizations to outsource some portion of their computing needs to another organization.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Cloud providers offer organizations the ability to rent compute resources on-demand and pay for usage.
+This allows for two major innovations:
+Organizations can focus on their product or service without waiting, planning, and spending resources on new physical infrastructure. They can simply <x id="1"/>scale<x id="2"/> as needed and on-demand.
+Cloud computing allows organizations to adopt as much or as little infrastructure as they need.</source>
+<target xml:lang="ja">Cloud providers offer organizations the ability to rent compute resources on-demand and pay for usage.
+This allows for two major innovations:
+Organizations can focus on their product or service without waiting, planning, and spending resources on new physical infrastructure. They can simply <x id="1"/>scale<x id="2"/> as needed and on-demand.
+Cloud computing allows organizations to adopt as much or as little infrastructure as they need.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

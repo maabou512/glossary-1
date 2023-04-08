@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/service-mesh.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">In a <x id="1"/>microservices<x id="2"/> world, apps are broken down into multiple smaller <x id="3"/>services<x id="4"/> that communicate over a network.
+Just like your wifi network, computer networks are intrinsically unreliable, hackable, and often slow.
+Service meshes address this new set of challenges by managing traffic (i.e., communication) between services and
+adding <x id="5"/>reliability<x id="6"/>, <x id="7"/>observability<x id="8"/>, and security features uniformly across all services.</source>
+<target xml:lang="ja">In a <x id="1"/>microservices<x id="2"/> world, apps are broken down into multiple smaller <x id="3"/>services<x id="4"/> that communicate over a network.
+Just like your wifi network, computer networks are intrinsically unreliable, hackable, and often slow.
+Service meshes address this new set of challenges by managing traffic (i.e., communication) between services and
+adding <x id="5"/>reliability<x id="6"/>, <x id="7"/>observability<x id="8"/>, and security features uniformly across all services.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Having moved to a microservices architecture, engineers are now dealing with hundreds,
+possibly even thousands of individual services, all needing to communicate.
+That means a lot of traffic is going back and forth over the network.
+On top of that, individual applications may need to encrypt communications to support regulatory requirements,
+provide common metrics to operations teams, or provide detailed insight into traffic to help diagnose issues.
+If built into the individual applications,
+each one of these features will cause friction between teams and slow down development of new features.</source>
+<target xml:lang="ja">Having moved to a microservices architecture, engineers are now dealing with hundreds,
+possibly even thousands of individual services, all needing to communicate.
+That means a lot of traffic is going back and forth over the network.
+On top of that, individual applications may need to encrypt communications to support regulatory requirements,
+provide common metrics to operations teams, or provide detailed insight into traffic to help diagnose issues.
+If built into the individual applications,
+each one of these features will cause friction between teams and slow down development of new features.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Service meshes add reliability, observability, and security features
+uniformly across all services across a cluster without requiring code changes.
+Before service meshes, that functionality had to be encoded into every single service,
+becoming a potential source of bugs and technical debt.</source>
+<target xml:lang="ja">Service meshes add reliability, observability, and security features
+uniformly across all services across a cluster without requiring code changes.
+Before service meshes, that functionality had to be encoded into every single service,
+becoming a potential source of bugs and technical debt.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

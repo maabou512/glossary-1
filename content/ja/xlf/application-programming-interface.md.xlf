@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/application-programming-interface.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">An API is a way for computer programs to interact with each other.
+Just as humans interact with a website via a web page, an API allows computer programs to interact with each other.
+Unlike human interactions, APIs have limitations on what can and cannot be asked of them.
+The limitation on interaction helps to create stable and functional communication between programs.</source>
+<target xml:lang="ja">An API is a way for computer programs to interact with each other.
+Just as humans interact with a website via a web page, an API allows computer programs to interact with each other.
+Unlike human interactions, APIs have limitations on what can and cannot be asked of them.
+The limitation on interaction helps to create stable and functional communication between programs.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">As applications become more complex, small code changes can have drastic effects on other functionality.
+Applications need to take a modular approach to their functionality if they can grow and maintain stability simultaneously.
+Without APIs, there is a lack of a framework for the interaction between applications.
+Without a shared framework, it is challenging for applications to <x id="1"/>scale<x id="2"/> and integrate.</source>
+<target xml:lang="ja">As applications become more complex, small code changes can have drastic effects on other functionality.
+Applications need to take a modular approach to their functionality if they can grow and maintain stability simultaneously.
+Without APIs, there is a lack of a framework for the interaction between applications.
+Without a shared framework, it is challenging for applications to <x id="1"/>scale<x id="2"/> and integrate.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">APIs allow computer programs or applications to interact and share information in a defined and understandable manner.
+They are the building blocks for modern applications and they provide developers with a way to integrate applications together.
+Whenever you hear about <x id="1"/>microservices<x id="2"/> working together, you can infer that they interact via an API.</source>
+<target xml:lang="ja">APIs allow computer programs or applications to interact and share information in a defined and understandable manner.
+They are the building blocks for modern applications and they provide developers with a way to integrate applications together.
+Whenever you hear about <x id="1"/>microservices<x id="2"/> working together, you can infer that they interact via an API.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/nodes.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A node is a computer that works in concert with other computers, or nodes, to accomplish a common task.
+Take your laptop, modem, and printer, for example.
+They are all connected over your wifi network communicating and collaborating, each representing one node.
+In <x id="1"/>cloud computing<x id="2"/>, a node can be a physical computer,
+a virtual computer, referred to as a <x id="3"/>VM<x id="4"/>, or even a <x id="5"/>container<x id="6"/>.</source>
+<target xml:lang="ja">A node is a computer that works in concert with other computers, or nodes, to accomplish a common task.
+Take your laptop, modem, and printer, for example.
+They are all connected over your wifi network communicating and collaborating, each representing one node.
+In <x id="1"/>cloud computing<x id="2"/>, a node can be a physical computer,
+a virtual computer, referred to as a <x id="3"/>VM<x id="4"/>, or even a <x id="5"/>container<x id="6"/>.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">While an application could (and many do) run on one single machine, there are some risks involved with that.
+Namely that the failure of the underlying system will disrupt the application.
+To address this, developers started creating <x id="1"/>distributed applications<x id="2"/> where each process runs on its own node.
+Thus, nodes run apps or processes as part of a group forming a <x id="3"/>cluster<x id="4"/>, or group, of nodes that works together to achieve a common goal.</source>
+<target xml:lang="ja">While an application could (and many do) run on one single machine, there are some risks involved with that.
+Namely that the failure of the underlying system will disrupt the application.
+To address this, developers started creating <x id="1"/>distributed applications<x id="2"/> where each process runs on its own node.
+Thus, nodes run apps or processes as part of a group forming a <x id="3"/>cluster<x id="4"/>, or group, of nodes that works together to achieve a common goal.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">A node gives you a distinct unit of compute (memory, CPU, network) that you can assign to a cluster.
+In a <x id="1"/>cloud native<x id="2"/> platform or app a node represents a single unit that can perform work.
+Ideally, individual nodes are undifferentiated in that
+any one node of a particular type is indistinguishable from any other node of the same type.</source>
+<target xml:lang="ja">A node gives you a distinct unit of compute (memory, CPU, network) that you can assign to a cluster.
+In a <x id="1"/>cloud native<x id="2"/> platform or app a node represents a single unit that can perform work.
+Ideally, individual nodes are undifferentiated in that
+any one node of a particular type is indistinguishable from any other node of the same type.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

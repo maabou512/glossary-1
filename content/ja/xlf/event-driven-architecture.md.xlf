@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/event-driven-architecture.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Event-driven architecture is a software architecture that promotes the creation, processing, and consumption of events.
+An event is any change to an application's state.
+For example, hailing a ride on a ride-sharing app represents an event.
+This architecture creates the structure in which events can be properly routed from their source (the app requesting a ride) to the desired receivers (the apps of available drivers nearby).</source>
+<target xml:lang="ja">Event-driven architecture is a software architecture that promotes the creation, processing, and consumption of events.
+An event is any change to an application's state.
+For example, hailing a ride on a ride-sharing app represents an event.
+This architecture creates the structure in which events can be properly routed from their source (the app requesting a ride) to the desired receivers (the apps of available drivers nearby).</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">As more data becomes real-time, finding reliable ways to ensure that events are captured and routed to the appropriate <x id="1"/>service<x id="2"/> that must process event requests gets increasingly challenging.
+Traditional methods of handling events often have no way to guarantee that messages are appropriately routed or were actually sent or received.
+As applications begin to scale, it becomes more challenging to orchestrate events.</source>
+<target xml:lang="ja">As more data becomes real-time, finding reliable ways to ensure that events are captured and routed to the appropriate <x id="1"/>service<x id="2"/> that must process event requests gets increasingly challenging.
+Traditional methods of handling events often have no way to guarantee that messages are appropriately routed or were actually sent or received.
+As applications begin to scale, it becomes more challenging to orchestrate events.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Event-driven architectures establish a central hub for all events (e.g., Kafka).
+You then define the event producers (source) and consumers (receiver), and the central event hub guarantees the flow of events.
+This architecture ensures that services remain decoupled and events are properly routed from the producer to the consumer.
+The producer will take the incoming event, usually by HTTP protocol, then route the event information.</source>
+<target xml:lang="ja">Event-driven architectures establish a central hub for all events (e.g., Kafka).
+You then define the event producers (source) and consumers (receiver), and the central event hub guarantees the flow of events.
+This architecture ensures that services remain decoupled and events are properly routed from the producer to the consumer.
+The producer will take the incoming event, usually by HTTP protocol, then route the event information.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

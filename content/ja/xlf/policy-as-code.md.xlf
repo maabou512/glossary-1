@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="./en/policy-as-code.md" source-language="en" target-language="ja" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">What it is</source>
+<target xml:lang="ja">What it is</target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Policy as Code is the practice of storing the definition of policies as one or more files in machine-readable and processable form.
+This replaces the traditional model where policies are documented in human-readable form in separate documents.</source>
+<target xml:lang="ja">Policy as Code is the practice of storing the definition of policies as one or more files in machine-readable and processable form.
+This replaces the traditional model where policies are documented in human-readable form in separate documents.</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Problem it addresses</source>
+<target xml:lang="ja">Problem it addresses</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Building applications and infrastructures are often constrained by many policies that an organization defines,
+e.g. security policies that forbid storing secrets in source code, running a container with superuser permissions,
+or storing some data outside a specific geo region.
+It is very labor-intensive and error-prone for developers and reviewers to manually check applications and infrastructure against documented policies.
+Manual processes cannot meet the responsiveness and scale requirements of cloud native applications.</source>
+<target xml:lang="ja">Building applications and infrastructures are often constrained by many policies that an organization defines,
+e.g. security policies that forbid storing secrets in source code, running a container with superuser permissions,
+or storing some data outside a specific geo region.
+It is very labor-intensive and error-prone for developers and reviewers to manually check applications and infrastructure against documented policies.
+Manual processes cannot meet the responsiveness and scale requirements of cloud native applications.</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">How it helps</source>
+<target xml:lang="ja">How it helps</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Describing policies through code enables repeatability and reduces errors (unlike when done manually).
+Another advantage of Policy as Code is that code can be managed by a version control system like Git.
+Git creates a change log history which is particularly helpful when something does not work as expected.
+It allows the user to determine who made the change and revert back to a previous version.</source>
+<target xml:lang="ja">Describing policies through code enables repeatability and reduces errors (unlike when done manually).
+Another advantage of Policy as Code is that code can be managed by a version control system like Git.
+Git creates a change log history which is particularly helpful when something does not work as expected.
+It allows the user to determine who made the change and revert back to a previous version.</target>
+</trans-unit>
+</body>
+</file>
+</xliff>
